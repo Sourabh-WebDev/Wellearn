@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <title>
-          Wellearn - Education &amp; LMS React NextJS Template || Home
+          SMS EDUCATION || Home
         </title>
         {/*====== Favicon Icon ======*/}
         <link
