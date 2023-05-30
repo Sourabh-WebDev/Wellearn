@@ -15,7 +15,7 @@ const Course = () => {
         <Layout>
             <PageBanner pageName={"Our Courses"} />
 
-            <section className="course-left-area py-130 rpy-100">
+            <section className="course-left-area pt-130 rpy-100">
                 <div className="container">
                     <div className="row large-gap">
                         <div className="col-lg-4">

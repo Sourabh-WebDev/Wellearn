@@ -4,7 +4,7 @@ import Layout from "../src/layout/Layout";
 import Pagination from "../src/Pagination";
 const CourseGrid = () => {
   return (
-    <section className="course-left-area py-130 rpy-100">
+    <section className="course-left-area rpy-100">
       {/* <Layout> */}
         {/* <PageBanner pageName={"Course Left Sidebar"} /> */}
         {/* Page Banner End */}

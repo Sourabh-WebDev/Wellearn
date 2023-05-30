@@ -514,7 +514,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             </p>
           </div>
           <div className="top-right d-flex align-items-center">
-            <div className="social-style-two">
+            {/* <div className="social-style-two">
               <Link href="/contact">
                 <a>
                   <i className="fab fa-twitter" />
@@ -535,26 +535,18 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <i className="fab fa-pinterest-p" />
                 </a>
               </Link>
-            </div>
+            </div> */}
             <ul className="top-menu">
               {/* <li>
                 <Link href="/about">
                   <a>Setting &amp; Privacy</a>
                 </Link>
               </li> */}
-              <li className="dropdown">
-                <a className="dropdown-btn" >Register <span className="fas fa-chevron-down fa-xs" /></a>
-                {/* <ul><Register /></ul> */}
+              <li>
+                <Link href="/about">
+                  <a>Register</a>
+                </Link>
               </li>
-              {/* <li className="dropdown">
-                <a href="#">blog</a>
-                <ul>
-                  <Blog />
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="fas fa-chevron-down" />
-                </div>
-              </li> */}
               <li>
                 <Link href="/about">
                   <a>Login</a>

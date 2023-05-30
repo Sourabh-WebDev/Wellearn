@@ -5,7 +5,7 @@ import Pagination from "../src/Pagination";
 const CourseList = () => {
   return (
 
-    <section className="course-list-area py-130 rpt-95 rpb-100">
+    <section className="course-list-area rpt-95 rpb-100">
       {/* <Layout>
         <PageBanner pageName={"Course List"} />
 

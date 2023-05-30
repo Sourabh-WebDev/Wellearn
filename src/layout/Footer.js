@@ -19,29 +19,29 @@ const Footer = ({ footer }) => {
 };
 export default Footer;
 const FollowIcon = () => (
-    <Fragment>
-      <Link href="/contact">
-        <a>
-          <i className="fab fa-facebook-f" />
-        </a>
-      </Link>
-      <Link href="/contact">
-        <a>
-          <i className="fab fa-twitter" />
-        </a>
-      </Link>
-      <Link href="/contact">
-        <a>
-          <i className="fab fa-linkedin-in" />
-        </a>
-      </Link>
-      <Link href="/contact">
-        <a>
-          <i className="fab fa-youtube" />
-        </a>
-      </Link>
-    </Fragment>
-  ),
+  <Fragment>
+    <Link href="/contact">
+      <a>
+        <i className="fab fa-facebook-f" />
+      </a>
+    </Link>
+    <Link href="/contact">
+      <a>
+        <i className="fab fa-twitter" />
+      </a>
+    </Link>
+    <Link href="/contact">
+      <a>
+        <i className="fab fa-linkedin-in" />
+      </a>
+    </Link>
+    <Link href="/contact">
+      <a>
+        <i className="fab fa-youtube" />
+      </a>
+    </Link>
+  </Fragment>
+),
   Courses = () => (
     <Fragment>
       <li>
@@ -126,7 +126,7 @@ const FollowIcon = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          <div className="col-lg-3 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Courses</h5>
               <ul>
@@ -134,7 +134,7 @@ const FollowIcon = () => (
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          <div className="col-lg-3 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Resources</h5>
               <ul>
@@ -142,9 +142,9 @@ const FollowIcon = () => (
               </ul>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-3">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-12">
                 <div className="footer-widget contact-info-widget">
                   <h5 className="footer-title">Get In Touch</h5>
                   <ul>
@@ -165,25 +165,6 @@ const FollowIcon = () => (
                       <br /> 08 am - 05 pm
                     </li>
                   </ul>
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="footer-widget video-widget">
-                  <p>Quis autem vel eum iure repre enderit voluptate</p>
-                  <div className="video-widget overlay my-20">
-                    <img src="assets/images/footer/video.jpg" alt="Video" />
-                    <a
-                      href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                      className="mfp-iframe video-play"
-                    >
-                      <i className="fas fa-play" />
-                    </a>
-                  </div>
-                  <Link href="/about">
-                    <a className="read-more">
-                      view more <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
