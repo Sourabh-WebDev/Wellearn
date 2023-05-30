@@ -89,7 +89,7 @@ const FollowIcon = () => (
   FooterBottom = () => (
     <Fragment>
       <li>
-        <Link href="/faqs">Faqs</Link>
+        <Link href="/faqs">FAQs</Link>
       </li>
       <li>
         <Link href="/contact">Links</Link>
@@ -104,7 +104,7 @@ const FollowIcon = () => (
   ),
   CopyRight = () => (
     <p>
-      © {new Date().getFullYear()}. <Link href="/">Wellern</Link> All rights
+      © {new Date().getFullYear()}. <Link href="/">Sms Education</Link> All rights
       reserved.
     </p>
   ),
