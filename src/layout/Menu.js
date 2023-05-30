@@ -17,6 +17,16 @@ export const Home = () => (
     </li>
   </Fragment>
 );
+export const Register = () => (
+  <Fragment>
+    <li>
+      <Link href="/">Student</Link>
+    </li>
+    <li>
+      <Link href="/index2">Instructors</Link>
+    </li>
+  </Fragment>
+);
 
 export const Courses = () => (
   <Fragment>

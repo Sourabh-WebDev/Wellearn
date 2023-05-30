@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { sidebarOnclick, stickyNav } from "../utils";
-import { Blog, Courses, Home, Pages } from "./Menu";
+import { Blog, Courses, Home, Pages, Register } from "./Menu";
 import MobileHeader from "./MobileHeader";
 
 const Header = ({ header }) => {
@@ -537,19 +537,27 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </Link>
             </div>
             <ul className="top-menu">
-              <li>
+              {/* <li>
                 <Link href="/about">
                   <a>Setting &amp; Privacy</a>
                 </Link>
+              </li> */}
+              <li className="dropdown">
+                <a className="dropdown-btn" >Register <span className="fas fa-chevron-down fa-xs" /></a>
+                {/* <ul><Register /></ul> */}
               </li>
-              <li>
-                <Link href="/faqs">
-                  <a>FAQs</a>
-                </Link>
-              </li>
+              {/* <li className="dropdown">
+                <a href="#">blog</a>
+                <ul>
+                  <Blog />
+                </ul>
+                <div className="dropdown-btn">
+                  <span className="fas fa-chevron-down" />
+                </div>
+              </li> */}
               <li>
                 <Link href="/about">
-                  <a>About</a>
+                  <a>Login</a>
                 </Link>
               </li>
             </ul>

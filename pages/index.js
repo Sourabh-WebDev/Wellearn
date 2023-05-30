@@ -23,7 +23,7 @@ const Index2 = () => {
                   <li>Events &amp; Program</li>
                 </ul>
                 <div className="hero-two-btns mt-30 wow fadeInUp delay-0-6s">
-                  <Link href="/about">
+                  <Link href="/Course">
                     <a className="theme-btn mb-15">
                       Get started <i className="fas fa-arrow-right" />
                     </a>
