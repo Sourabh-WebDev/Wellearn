@@ -10,14 +10,17 @@ const MobileHeader = () => {
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
     <ul className="navigation clearfix d-block d-lg-none mobile-header">
-      <li className="dropdown current">
-        <a href="#">home</a>
+      {/* <li className="dropdown current">
+        <a href="/">home</a>
         <ul style={activeLi("home")}>
           <Home />
         </ul>
         <div className="dropdown-btn" onClick={() => activeMenuSet("home")}>
           <span className="fas fa-chevron-down" />
         </div>
+      </li> */}
+      <li>
+        <Link href="/">Home</Link>
       </li>
       <li>
         <Link href="/about">About</Link>

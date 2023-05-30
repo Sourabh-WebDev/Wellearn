@@ -25,106 +25,105 @@ const Header = ({ header }) => {
 };
 export default Header;
 const Header1 = ({ navToggle, setNavToggle }) => (
-    <Fragment>
-      <header className="main-header">
-        {/* Header-Top */}
-        <HeaderTop />
-        {/* Header-Upper */}
-        <div className="header-upper">
-          <div className="container-fluid clearfix">
-            <div className="header-inner d-flex align-items-center justify-content-between">
-              <div className="logo-outer d-lg-flex align-items-center">
-                <div className="logo bg-transparent">
-                  <Link href="/">
-                    <a>
-                      <img
-                        // src="assets/images/logos/logo.png"
-                        src="assets/images/logos/logoSms.jpg"
-                        alt="Logo"
-                        className="pt-1"
-                        title="Logo"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <select name="select-languages" id="select-languages">
-                  <option value="English">Eng</option>
-                  <option value="Hindi">Hindi</option>
-                  {/* <option value="Chinese">Chi</option>
-                  <option value="Arabic">Ara</option> */}
-                </select>
+  <Fragment>
+    <header className="main-header">
+      {/* Header-Top */}
+      <HeaderTop />
+      {/* Header-Upper */}
+      <div className="header-upper">
+        <div className="container-fluid clearfix">
+          <div className="header-inner d-flex align-items-center justify-content-between">
+            <div className="logo-outer d-lg-flex align-items-center">
+              <div className="logo bg-transparent">
+                <Link href="/">
+                  <a>
+                    <img
+                      // src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logoSms.jpg"
+                      alt="Logo"
+                      className="pt-1"
+                      title="Logo"
+                    />
+                  </a>
+                </Link>
               </div>
-              <div className="nav-outer clearfix">
-                {/* Main Menu */}
-                <nav className="main-menu navbar-expand-lg">
-                  <div className="navbar-header">
-                    <div className="mobile-logo bg-green br-10 p-15 bg-transparent">
-                      <Link href="/">
-                        <a>
-                          <img
-                            src="assets/images/logos/logoSms.jpg"
-                            alt="Logo"
-                            title="Logo"
-                            className="pt-2"
-                          />
-                        </a>
-                      </Link>
-                    </div>
-                    {/* Toggle Button */}
-                    <button
-                      type="button"
-                      className="navbar-toggle"
-                      data-toggle="collapse"
-                      data-target=".navbar-collapse"
-                      onClick={() => setNavToggle(!navToggle)}
-                    >
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                    </button>
+              {/* <select name="select-languages" id="select-languages">
+                <option value="English">Eng</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Chinese">Chi</option>
+                  <option value="Arabic">Ara</option>
+              </select> */}
+            </div>
+            <div className="nav-outer clearfix">
+              {/* Main Menu */}
+              <nav className="main-menu navbar-expand-lg">
+                <div className="navbar-header">
+                  <div className="mobile-logo br-10 p-15 bg-transparent">
+                    <Link href="/">
+                      <a>
+                        <img
+                          src="assets/images/logos/logoSms.jpg"
+                          alt="Logo"
+                          title="Logo"
+                          className="pt-2"
+                        />
+                      </a>
+                    </Link>
                   </div>
-                  <div
-                    className={`navbar-collapse collapse clearfix ${
-                      navToggle ? "show" : ""
-                    }`}
+                  {/* Toggle Button */}
+                  <button
+                    type="button"
+                    className="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                    onClick={() => setNavToggle(!navToggle)}
                   >
-                    <Menus />
-                    <MobileHeader />
-                  </div>
-                </nav>
-                {/* Main Menu End*/}
-              </div>
-              {/* Menu Button */}
-              <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
-                  <input type="search" placeholder="Search" required="" />
-                  <button>
-                    <i className="fas fa-search" />
-                  </button>
-                </form>
-                <button className="cart">
-                  <i className="fas fa-shopping-bag" />
-                </button>
-                <button>
-                  <i className="far fa-user-circle" />
-                </button>
-                {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
-                  <button>
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                   </button>
                 </div>
+                <div
+                  className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
+                    }`}
+                >
+                  <Menus />
+                  <MobileHeader />
+                </div>
+              </nav>
+              {/* Main Menu End*/}
+            </div>
+            {/* Menu Button */}
+            <div className="menu-btn-sidebar d-flex align-items-center">
+              <form onSubmit={(e) => e.preventDefault()} action="#">
+                <input type="search" placeholder="Search" required="" />
+                <button>
+                  <i className="fas fa-search" />
+                </button>
+              </form>
+              <button className="cart">
+                <i className="fas fa-shopping-bag" />
+              </button>
+              <button>
+                <i className="far fa-user-circle" />
+              </button>
+              {/* menu sidbar */}
+              <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+                <button>
+                  <span className="icon-bar" />
+                  <span className="icon-bar" />
+                  <span className="icon-bar" />
+                </button>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/*End Header Upper*/}
-      </header>
-    </Fragment>
-  ),
+      {/*End Header Upper*/}
+    </header>
+  </Fragment>
+),
   Header3 = ({ navToggle, setNavToggle }) => (
     <Fragment>
       <header className="main-header header-three">
@@ -175,9 +174,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     </button>
                   </div>
                   <div
-                    className={`navbar-collapse collapse clearfix ${
-                      navToggle ? "show" : ""
-                    }`}
+                    className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
+                      }`}
                   >
                     <Menus />
                     <MobileHeader />
@@ -320,9 +318,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    navToggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
+                    }`}
                 >
                   <Menus />
                   <MobileHeader />
@@ -373,29 +370,29 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        src="assets/images/logos/logo.png"
+                        src="assets/images/logos/logoSms.jpg"
                         alt="Logo"
                         title="Logo"
                       />
                     </a>
                   </Link>
                 </div>
-                <select name="select-languages" id="select-languages">
+                {/* <select name="select-languages" id="select-languages">
                   <option value="English">Eng</option>
                   <option value="Spanish">Spa</option>
                   <option value="Chinese">Chi</option>
                   <option value="Arabic">Ara</option>
-                </select>
+                </select> */}
               </div>
               <div className="nav-outer clearfix">
                 {/* Main Menu */}
                 <nav className="main-menu navbar-expand-lg">
                   <div className="navbar-header">
-                    <div className="mobile-logo bg-green br-10 p-15">
+                    <div className="mobile-logo br-10 p-15">
                       <Link href="/">
                         <a>
                           <img
-                            src="assets/images/logos/logo.png"
+                            src="assets/images/logos/logoSms.jpg"
                             alt="Logo"
                             title="Logo"
                           />
@@ -416,9 +413,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     </button>
                   </div>
                   <div
-                    className={`navbar-collapse collapse clearfix ${
-                      navToggle ? "show" : ""
-                    }`}
+                    className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
+                      }`}
                   >
                     <Menus />
                     <MobileHeader />
@@ -459,7 +455,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
   ),
   Menus = () => (
     <ul className="navigation clearfix d-none d-lg-flex">
-      <li className="dropdown ">
+      {/* <li className="dropdown ">
         <a href="#">home</a>
         <ul>
           <Home />
@@ -467,6 +463,11 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
+      </li> */}
+      <li>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
       </li>
       <li>
         <Link href="/about">
@@ -491,7 +492,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <span className="fas fa-chevron-down" />
         </div>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">blog</a>
         <ul>
           <Blog />
@@ -499,7 +500,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
-      </li>
+      </li> */}
     </ul>
   ),
   HeaderTop = () => (
@@ -543,7 +544,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </li>
               <li>
                 <Link href="/faqs">
-                  <a>Faqs</a>
+                  <a>FAQs</a>
                 </Link>
               </li>
               <li>
