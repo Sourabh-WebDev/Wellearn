@@ -4,6 +4,7 @@ import Advertise from "../src/components/Advertise";
 import Counter from "../src/components/Counter";
 import Layout from "../src/layout/Layout";
 import { index2Course, testimonialtwoSlider } from "../src/sliderProps";
+import StudentoftheYear from "./StudentoftheYear";
 
 const Index2 = () => {
   return (
@@ -68,6 +69,12 @@ const Index2 = () => {
       </section>
       {/* Hero Section End */}
       {/* Features Section Start */}
+      <section className="features-section-two rel z-1 pt-50 rpt-90 pb-75 rpb-45 text-center">
+        <h2>Our Pride</h2>
+        <div className="container">
+          <StudentoftheYear />
+        </div>
+      </section>
       <section className="features-section-two rel z-1 pt-120 rpt-90 pb-75 rpb-45">
         <div className="container">
           <div className="section-title text-center mb-55">
@@ -132,6 +139,7 @@ const Index2 = () => {
           </div>
         </div>
       </section>
+
       {/* Features Section End */}
       {/* About Section Start */}
       <section className="about-section-two pb-120 rpb-95">

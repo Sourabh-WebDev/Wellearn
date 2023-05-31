@@ -1,10 +1,14 @@
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useContext, useEffect, useState } from "react";
 import { sidebarOnclick, stickyNav } from "../utils";
 import { Blog, Courses, Home, Pages, Register } from "./Menu";
 import MobileHeader from "./MobileHeader";
+import { ModalForLoginSingup, ModalsForLoginSingup } from "./Modals";
+import AppContext from "../../Context/context";
+
 
 const Header = ({ header }) => {
+
   useEffect(() => {
     stickyNav();
   }, []);
@@ -502,8 +506,13 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </div>
       </li> */}
     </ul>
-  ),
-  HeaderTop = () => (
+  )
+
+
+const HeaderTop = () => {
+  const context = useContext(AppContext)
+
+  return (
     <div className="header-top bg-light-blue text-white">
       <div className="container-fluid">
         <div className="top-inner">
@@ -543,18 +552,15 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 </Link>
               </li> */}
               <li>
-                <Link href="/about">
-                  <a>Register</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <a>Login</a>
-                </Link>
+                <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register</a>
+                <ModalsForLoginSingup
+                  show={context.cancel}
+                  CancelAction={() => context.setCancel(!context.cancel)} />
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
+}

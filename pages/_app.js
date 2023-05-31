@@ -1,8 +1,14 @@
 import Head from "next/head";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState, createContext } from "react";
 import "../styles/globals.css";
+import AppContext from "../Context/context";
 
 function MyApp({ Component, pageProps }) {
+
+  // Login SignUp Module States 
+  const [cancel, setCancel] = useState('')
+
+
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -47,7 +53,14 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
       {loading && <div className="preloader" />}
-      <Component {...pageProps} />
+      <AppContext.Provider
+        value={{
+          cancel,
+          setCancel
+        }}
+      >
+        <Component {...pageProps} />
+      </AppContext.Provider >
     </Fragment>
   );
 }

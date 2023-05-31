@@ -70,12 +70,6 @@ const Course = () => {
                                 Grid ? <CourseGrid /> : <CourseList />
                             }
                         </div>
-                        {/* <ul className="pagination flex-wrap mt-20">
-                            <Pagination
-                                paginationCls={".course-grids .row .col-md-6"}
-                                sort={4}
-                            />
-                        </ul> */}
                     </div>
                 </div>
             </section>
