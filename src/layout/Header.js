@@ -545,14 +545,25 @@ const HeaderTop = () => {
                 </a>
               </Link>
             </div> */}
+            <div className="dropdown bg-transparent">
+              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </button>
+              <ul style={{ background: 'whitesmoke', color: 'black' }} className="dropdown-menu">
+                <li><a className="dropdown-item text-dark" href="#">Login As Admin </a></li>
+                <li><a className="dropdown-item text-dark" href="#">Login As Student</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Login As Instructor</a></li>
+              </ul>
+            </div>
             <ul className="top-menu">
+
               {/* <li>
                 <Link href="/about">
                   <a>Setting &amp; Privacy</a>
                 </Link>
               </li> */}
               <li>
-                <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register</a>
+                {/* <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register</a> */}
                 <ModalsForLoginSingup
                   show={context.cancel}
                   CancelAction={() => context.setCancel(!context.cancel)} />
