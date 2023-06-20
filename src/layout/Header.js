@@ -545,7 +545,7 @@ const HeaderTop = () => {
                 </a>
               </Link>
             </div> */}
-            <div className="dropdown bg-transparent">
+            {/* <div className="dropdown bg-transparent">
               <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Login
               </button>
@@ -554,7 +554,7 @@ const HeaderTop = () => {
                 <li><a className="dropdown-item text-dark" href="#">Login As Student</a></li>
                 <li><a className="dropdown-item text-dark" href="#">Login As Instructor</a></li>
               </ul>
-            </div>
+            </div> */}
             <ul className="top-menu">
 
               {/* <li>
@@ -563,9 +563,11 @@ const HeaderTop = () => {
                 </Link>
               </li> */}
               <li className="loginSignUp_btn" style={{ position: "relative" }}>
-                <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register
+                {/* <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register
+                </a> */}
+                <a >Login
                 </a>
-                <div className="LoginOptions card" style={{ position: "absolute", left: "0", width: "fit-content", zIndex: "999" }}>
+                <div className="LoginOptions card" style={{ position: "absolute", right: "0%", width: "fit-content", zIndex: "999" }}>
                   <Link href={"https://smsfrontend.vercel.app/login-admin"} className=" ">Login as Admin</Link>
                   <Link href={"https://smsfrontend.vercel.app/login-student"} className=" ">Login as Student</Link>
                   <Link href={"https://smsfrontend.vercel.app/login-instructor"} className=" ">Login as Instructor</Link>
