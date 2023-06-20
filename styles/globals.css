@@ -1,5 +1,5 @@
 /* @import "slick-carousel/slick/slick.css"; */
-.navigation li.dropdown:hover>ul {
+.navigation li.dropdown:hover > ul {
   display: block;
 }
 
@@ -57,8 +57,8 @@ img.mfp-img {
   right: -24px;
 }
 
-.main-menu li.active>a,
-.header-navigation .main-menu ul>li.has-children.active>a:after {
+.main-menu li.active > a,
+.header-navigation .main-menu ul > li.has-children.active > a:after {
   color: #ff344f !important;
 }
 
@@ -89,7 +89,6 @@ img.mfp-img {
   z-index: 2;
 }
 
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -114,20 +113,17 @@ img.mfp-img {
   --dark: #343a40;
 }
 
-
-
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   color: #fff;
   background-color: rgba(194, 157, 0, 1) !important;
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link:hover {
+.nav-pills .show > .nav-link:hover {
   color: #fff !important;
   background-color: rgba(194, 157, 0, 1) !important;
 }
-
 
 .btn-primary {
   color: #fff;
@@ -138,7 +134,6 @@ img.mfp-img {
 .btn-primary:is(:hover, :focus) {
   outline-offset: 3px !important;
 }
-
 
 .containerSOY {
   position: relative;
@@ -216,4 +211,28 @@ img.mfp-img {
   visibility: visible;
   opacity: 1;
   transition-delay: 0.2s;
+}
+
+/* hover the login dropdown  */
+.LoginOptions {
+  display: none;
+}
+
+.LoginOptions > a {
+  padding: 0.5rem;
+  color: #4d4d4d;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.LoginOptions > a:hover {
+  background: var(--blue);
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.loginSignUp_btn:hover .LoginOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

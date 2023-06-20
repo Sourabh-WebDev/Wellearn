@@ -469,7 +469,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </div>
       </li> */}
       <li>
-        <Link href="/">
+        <Link href="https://trackel-helper-frontend-o7n8.vercel.app/">
           <a>Home</a>
         </Link>
       </li>
@@ -551,8 +551,14 @@ const HeaderTop = () => {
                   <a>Setting &amp; Privacy</a>
                 </Link>
               </li> */}
-              <li>
-                <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register</a>
+              <li className="loginSignUp_btn" style={{ position: "relative" }}>
+                <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register
+                </a>
+                <div className="LoginOptions card" style={{ position: "absolute", left: "0", width: "fit-content", zIndex: "999" }}>
+                  <Link href={"https://smsfrontend.vercel.app/login-admin"} className=" ">Login as Admin</Link>
+                  <Link href={"https://smsfrontend.vercel.app/login-student"} className=" ">Login as Student</Link>
+                  <Link href={"https://smsfrontend.vercel.app/login-instructor"} className=" ">Login as Instructor</Link>
+                </div>
                 <ModalsForLoginSingup
                   show={context.cancel}
                   CancelAction={() => context.setCancel(!context.cancel)} />
