@@ -6,7 +6,8 @@ import Layout from "../src/layout/Layout";
 import { index2Course, testimonialtwoSlider } from "../src/sliderProps";
 import StudentoftheYear from "./StudentoftheYear";
 
-const Index2 = () => {
+
+const Index = () => {
   return (
     <Layout>
       {" "}
@@ -1186,6 +1187,7 @@ const Index2 = () => {
         </div>
       </section>
     </Layout>
-  );
-};
-export default Index2;
+  )
+}
+
+export default Index

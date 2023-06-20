@@ -13,7 +13,7 @@ const Index1Isotope = dynamic(
   }
 );
 
-const Index = () => {
+const Index2 = () => {
   return (
     <Layout header={1} footer={1}>
       <section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
@@ -831,4 +831,4 @@ const Index = () => {
     </Layout>
   );
 };
-export default Index;
+export default Index2;

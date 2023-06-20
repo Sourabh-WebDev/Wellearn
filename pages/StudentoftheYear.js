@@ -73,4 +73,4 @@ const StudentoftheYear = () => {
     )
 }
 
-export default StudentoftheYear
+export default StudentoftheYear;
