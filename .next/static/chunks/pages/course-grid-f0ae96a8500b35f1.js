@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[420],{8406:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/course-grid",function(){return u(6468)}])}},function(n){n.O(0,[717,598,468,774,888,179],function(){return n(n.s=8406)}),_N_E=n.O()}]);

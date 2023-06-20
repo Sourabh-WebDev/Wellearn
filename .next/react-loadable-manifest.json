@@ -1,1 +1,16 @@
-{}
+{
+  "gallery.js -> ../src/components/isotope/GalleryIsotope": {
+    "id": 152,
+    "files": [
+      "static/chunks/391.07d49f0575a5578e.js",
+      "static/chunks/152.165505d9872d4bac.js"
+    ]
+  },
+  "index2.js -> ../src/components/isotope/Index1Isotope": {
+    "id": 8566,
+    "files": [
+      "static/chunks/391.07d49f0575a5578e.js",
+      "static/chunks/566.32e90c171ad05776.js"
+    ]
+  }
+}
