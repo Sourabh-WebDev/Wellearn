@@ -154,11 +154,11 @@ const FollowIcon = () => (
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:support@gmail.com">smseducationlko@gmail.com</a>
                     </li>
                     <li>
                       <i className="fas fa-phone" />{" "}
-                      <a href="callto:+0123456789">+012 (345) 67 89</a>
+                      <a href="callto:+0123456789">8090004415</a>
                     </li>
                     <li>
                       <i className="far fa-clock" /> Sunday - Friday,
