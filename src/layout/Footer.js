@@ -149,8 +149,8 @@ const FollowIcon = () => (
                   <h5 className="footer-title">Get In Touch</h5>
                   <ul>
                     <li>
-                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
-                      2nd Block, New York
+                      <i className="fas fa-map-marker-alt" /> A/1412, Sector- I Ashiyana LDA Colony Near
+                      Pakripool Lucknow – 226012, UP, India
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
