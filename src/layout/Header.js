@@ -545,12 +545,24 @@ const HeaderTop = () => {
                 </a>
               </Link>
             </div> */}
+            <div className="dropdown bg-transparent">
+              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </button>
+              <ul style={{ background: 'whitesmoke', color: 'black' }} className="dropdown-menu">
+                <li><a className="dropdown-item text-dark" href="#">Login As Admin </a></li>
+                <li><a className="dropdown-item text-dark" href="#">Login As Student</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Login As Instructor</a></li>
+              </ul>
+            </div>
             <ul className="top-menu">
+
               {/* <li>
                 <Link href="/about">
                   <a>Setting &amp; Privacy</a>
                 </Link>
               </li> */}
+<<<<<<< HEAD
               <li className="loginSignUp_btn" style={{ position: "relative" }}>
                 <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register
                 </a>
@@ -559,6 +571,10 @@ const HeaderTop = () => {
                   <Link href={"https://smsfrontend.vercel.app/login-student"} className=" ">Login as Student</Link>
                   <Link href={"https://smsfrontend.vercel.app/login-instructor"} className=" ">Login as Instructor</Link>
                 </div>
+=======
+              <li>
+                {/* <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register</a> */}
+>>>>>>> 469af990f386a297416180a7c75aa7189ce2d4a0
                 <ModalsForLoginSingup
                   show={context.cancel}
                   CancelAction={() => context.setCancel(!context.cancel)} />
