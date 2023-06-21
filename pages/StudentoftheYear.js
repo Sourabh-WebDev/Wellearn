@@ -46,9 +46,9 @@ const StudentoftheYear = () => {
                             <h5 className='text-nowrap'>Instructor Of The Month 🏆</h5>
                         </div>
                         <div className='content'>
-                            <h3>{instructorOfMonth ? instructorOfMonth.name : ""}</h3>
-                            < p > course :  {instructorOfMonth ? instructorOfMonth.course : ""}</p>
-                            <p>Description : {instructorOfMonth ? instructorOfMonth.desc : ""}</p>
+                            <h3>{instructorOfMonth ? instructorOfMonth.name : "NA"}</h3>
+                            < p > course :  {instructorOfMonth ? instructorOfMonth.course : "NA"}</p>
+                            <p>Description : {instructorOfMonth ? instructorOfMonth.desc : "NA"}</p>
                         </div>
                     </div>
                 </div>
