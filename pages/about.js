@@ -17,18 +17,12 @@ const About = () => {
             <div className="col-lg-5">
               <div className="about-page-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">About Learn Us</span>
-                  <h2>We’re Experience to Online Education Learning Center</h2>
+                  <span className="sub-title-two">About SMS</span>
+                  <h2>We’re Experience to Education Learning Center</h2>
                 </div>
                 <p>
-                  Sit amet consectetur adipiscing eiusmo tempor indun ut labore
-                  et dolore magna aliquaes suspendisse ultrice gravid commodo
-                  viverra maecenas accusan
+                  SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals. SMS Education involves in preparing skilled computer professional environment. The courses are structured with special emphasis on personal development and compatibility in information technology with excellent infrastructure, core facility and rich library. the schemes & planning formation are reserved with the erudite professional & promoters of the institute - it is prompted to spread the rich guidance in order to satisfy country's fast growing new technology requirements.
                 </p>
-                <b>
-                  Quis autem vel eum rerehenderit quivol uptate velit esse quam
-                  molestiae consequature
-                </b>
                 <div className="about-btns pt-25">
                   <Link href="/about">
                     <a className="theme-btn my-15">
@@ -47,7 +41,7 @@ const About = () => {
               <div className="about-page-middle rpt-55 rpb-30 wow fadeInRight delay-0-2s">
                 <img src="assets/images/about/about-page.png" alt="About" />
                 <div className="circle-content">
-                  <b>25</b>
+                  <b>15</b>
                   <span>Years Of Experience</span>
                 </div>
               </div>
@@ -104,8 +98,8 @@ const About = () => {
       <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-55">
-            <span className="sub-title-two">How About Learn Us</span>
-            <h2>Opportunity for Online Learning</h2>
+            <span className="sub-title-two">How About SMS</span>
+            <h2>Opportunity for Learning</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
@@ -410,8 +404,8 @@ const About = () => {
             <div className="col-lg-6">
               <div className="why-learn-content rmb-35">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">Why Learn Us</span>
-                  <h2>Exclusive Online Course Provide Categories</h2>
+                  <span className="sub-title-two">Why SMS</span>
+                  <h2>Exclusive Course Provide Categories</h2>
                 </div>
                 <p>
                   On the other hand, we denounce with righteous indignation and
@@ -489,7 +483,7 @@ const About = () => {
               <div className="testimonial-content-two">
                 <div className="designation">
                   <h3>Justin C. Swanson</h3>
-                  <span>Business Manager</span>
+                  <span>Director</span>
                 </div>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -514,8 +508,8 @@ const About = () => {
               </div>
               <div className="testimonial-content-two">
                 <div className="designation">
-                  <h3>Daniel E. Yager</h3>
-                  <span>Business Manager</span>
+                  <h3>Cessie</h3>
+                  <span>Manager</span>
                 </div>
                 <p>
                   Aperiam eaque quae abillo inventore veritatis et quasi
@@ -541,7 +535,7 @@ const About = () => {
               <div className="testimonial-content-two">
                 <div className="designation">
                   <h3>Stewart R. Platt</h3>
-                  <span>Business Manager</span>
+                  <span>Director</span>
                 </div>
                 <p>
                   Voluptatem accusantium doloremq udantium totam rem Sed ut

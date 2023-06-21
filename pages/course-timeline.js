@@ -5,7 +5,7 @@ import Pagination from "../src/Pagination";
 const CourseTimeline = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Course Right Sidebar"} />
+      <PageBanner pageName={"Our Courses"} />
       <section className="course-right-area py-130 rpt-95 rpb-100">
         <div className="container">
           <div className="row large-gap">

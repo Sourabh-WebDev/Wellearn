@@ -11055,6 +11055,7 @@ blockquote .blockquote-footer:before {
   padding: 35px;
   background: white;
   text-align: center;
+  min-height: 300px;
   border-radius: 5px;
   -webkit-box-shadow: 10px 0 60px rgba(138, 138, 138, 0.1);
   box-shadow: 10px 0 60px rgba(138, 138, 138, 0.1);

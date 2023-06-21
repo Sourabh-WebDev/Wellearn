@@ -478,7 +478,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <a>About</a>
         </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">Courses</a>
         <ul>
           <Courses />
@@ -486,8 +486,18 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
+      </li> */}
+      <li>
+        <Link href="/course-timeline">
+          <a>Courses</a>
+        </Link>
       </li>
-      <li className="dropdown">
+      <li>
+        <Link href="/contact">
+          <a>Contact Us</a>
+        </Link>
+      </li>
+      {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>
           <Pages />
@@ -495,7 +505,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
-      </li>
+      </li> */}
       {/* <li className="dropdown">
         <a href="#">blog</a>
         <ul>

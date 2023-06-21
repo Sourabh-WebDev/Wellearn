@@ -23,7 +23,7 @@ const ContactUs = () => {
                     <div className="contact-info-box">
                       <i className="fas fa-map-marker-alt" />
                       <h4>Locations</h4>
-                      <span>55 Main Street, 2nd Block, New York</span>
+                      <small>A/1412, Sector- I Ashiyana LDA Colony Near Pakripool Lucknow – 226012, UP, India</small>
                     </div>
                   </div>
                   <div className="col-md-4 col-sm-6">
@@ -148,7 +148,7 @@ const ContactUs = () => {
       <div className="contact-page-map">
         <div className="our-location">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-74.0154445224086!3d40.7260256534837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28490.96276239499!2d80.913365!3d26.796334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfc0e597dde7b%3A0xe9038b0a08d88c2b!2sa%20a%2C%20A%2F1417%2C%20Aashiyana%20Chauraha%2C%20Sector%20I%2C%20Sector%20L%2C%20Ashiyana%2C%20Lucknow%2C%20Uttar%20Pradesh%20226012%2C%20India!5e0!3m2!1sen!2sus!4v1687339000674!5m2!1sen!2sus"
             height={975}
             style={{ border: 0, width: "100%" }}
             allowFullScreen=""
