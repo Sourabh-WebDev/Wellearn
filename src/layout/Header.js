@@ -469,7 +469,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </div>
       </li> */}
       <li>
-        <Link href="https://trackel-helper-frontend-o7n8.vercel.app/">
+        <Link href="/">
           <a>Home</a>
         </Link>
       </li>
