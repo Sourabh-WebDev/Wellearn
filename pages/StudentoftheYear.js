@@ -42,7 +42,7 @@ const StudentoftheYear = () => {
                 <div className="containerForSOY">
                     <div className="card cardSOY">
                         <div className="image text-center">
-                            <img src={`${config.backendUrl}/instructorofmonth/${instructorOfMonth ? instructorOfMonth.img : ""}`} />
+                            <img src={`${config.backendUrl}/api/instructorofmonth/${instructorOfMonth ? instructorOfMonth.img : ""}`} />
                             <h5 className='text-nowrap'>Instructor Of The Month 🏆</h5>
                         </div>
                         <div className='content'>
@@ -57,7 +57,7 @@ const StudentoftheYear = () => {
                 <div className="containerForSOY">
                     <div className="card cardSOY">
                         <div className="image text-center">
-                            <img src={`${config.backendUrl}/studentofmonth/${stdOfMonth ? stdOfMonth.img : ""}`} />
+                            <img src={`${config.backendUrl}/api/studentofmonth/${stdOfMonth ? stdOfMonth.img : ""}`} />
 
                             <h5>Student Of The Month 🏆</h5>
                         </div>
