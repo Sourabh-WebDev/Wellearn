@@ -42,7 +42,8 @@ const StudentoftheYear = () => {
                 <div className="containerForSOY">
                     <div className="card cardSOY">
                         <div className="image text-center">
-                            <img src={`${config.backendUrl}/api/instructorofmonths/${instructorOfMonth ? instructorOfMonth.img : ""}`} />
+                            {/* <img src={`${config.backendUrl}/api/instructorofmonths/${instructorOfMonth ? instructorOfMonth.img : ""}`} /> */}
+                            <img src={'https://www.educationtopia.net/wp-content/uploads/2021/01/teacher.jpg'} alt="Instructor Of The Month" />
                             <h5 className='text-nowrap'>Instructor Of The Month 🏆</h5>
                         </div>
                         <div className='content'>
