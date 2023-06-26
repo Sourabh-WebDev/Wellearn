@@ -9,8 +9,7 @@ const Advertise = () => {
           <div className="content">
             <h4>Become An Instructor?</h4>
             <p>
-              Sit amet consectetur adipiscing sed eiusmod tempore dolore magna
-              suspendisse
+              Are you passionate about sharing your knowledge and expertise? Join our team of instructors and become a part of our dynamic learning community.
             </p>
             <Link href="/contact">
               <a className="theme-btn">
@@ -26,9 +25,9 @@ const Advertise = () => {
       <div className="col-lg-6">
         <div className="advertise-item bg-two wow fadeInUp delay-0-4s">
           <div className="content">
-            <h4>Get Online Courses</h4>
+            <h4>Get Our Courses</h4>
             <p>
-              Amet consectetur adipiscing sed eius tempore dolore magna suspens
+            Unlock your potential with our exceptional courses. Gain access to a world of knowledge and expertise that will empower you to achieve your goals.
             </p>
             <Link href="/contact">
               <a className="theme-btn style-two">

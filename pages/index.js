@@ -79,8 +79,8 @@ const Index = () => {
       <section className="features-section-two rel z-1 pt-120 rpt-90 pb-75 rpb-45">
         <div className="container">
           <div className="section-title text-center mb-55">
-            <span className="sub-title-two">How About Learn Us</span>
-            <h2>Opportunity for Online Learning</h2>
+            <span className="sub-title-two">How About SMS</span>
+            <h2>Opportunity for  Learning</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
@@ -91,8 +91,7 @@ const Index = () => {
                 </div>
                 <h4>Courses From Experts</h4>
                 <p>
-                  Sed ut perspiciatis unde omnis natus error sit voluptatem
-                  accusantium dolor emque laudantium, totam rem
+                  Unlock your potential with our courses led by industry experts. Gain invaluable knowledge and skills from seasoned professionals who are at the forefront of their respective fields.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -109,8 +108,7 @@ const Index = () => {
                 </div>
                 <h4>Over 500+ Quality Topics</h4>
                 <p>
-                  Sed ut perspiciatis unde omnis natus error sit voluptatem
-                  accusantium dolor emque laudantium, totam rem
+                  Explore our extensive collection of over 500+ quality topics, designed to cater to your diverse interests and learning needs. Whether you're passionate about technology, arts, science, or business, we've got you covered.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -127,8 +125,7 @@ const Index = () => {
                 </div>
                 <h4>Program Video Update</h4>
                 <p>
-                  Sed ut perspiciatis unde omnis natus error sit voluptatem
-                  accusantium dolor emque laudantium, totam rem
+                  Introducing our Program Video Update! Stay up-to-date with the latest developments and enhancements in our program through our informative video series.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -167,14 +164,11 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-content-two wow fadeInRight delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">About Learn Us</span>
-                  <h2>Experience to Online Learning Center</h2>
+                  <span className="sub-title-two">About SMS</span>
+                  <h2>Experience to  Learning Center</h2>
                 </div>
                 <p>
-                  Sit amet consectetur adipiscing sed eiusmod tempor indunt ut
-                  labore et dolore magna aliquaes ipsum suspendisse ultrice
-                  gravida. Risus commodo viverra maecenas accumsan lacus vel
-                  facilisis dolorem fugiat voluptas nulla pariatur.{" "}
+                  SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals.{" "}
                 </p>
                 <div className="about-btns">
                   <Link href="/about">
@@ -234,14 +228,12 @@ const Index = () => {
               <div className="categories-content rmb-65 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-25">
                   <span className="sub-title-two">Popular Category</span>
-                  <h2>Browse Our Online Course Categories</h2>
+                  <h2>Browse Our  Course Categories</h2>
                 </div>
                 <p>
-                  Sit amet consectetur adipiscing sed eiusmod tempore labore
-                  dolore magna aliuaes suspendisse ultrice gravida. commodo
-                  viverra maecenas accumsan lacus
+                  "We provide the best and excellent courses with top faculties."
                 </p>
-                <Link href="/about">
+                <Link href="/course-details">
                   <a className="read-more color-two mt-5">
                     View categories <i className="fas fa-arrow-right" />
                   </a>
@@ -279,7 +271,7 @@ const Index = () => {
                           alt="Icon"
                         />
                       </div>
-                      <h4>Marketing</h4>
+                      <h4>C, C++</h4>
                     </div>
                     <div className="category-item">
                       <div className="icon">
@@ -308,7 +300,7 @@ const Index = () => {
                           alt="Icon"
                         />
                       </div>
-                      <h4>SEO Optimize</h4>
+                      <h4>CCC</h4>
                     </div>
                   </div>
                 </div>
@@ -604,9 +596,7 @@ const Index = () => {
                   <h2>We Have Thousands Of Experience Team Members</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit volup
-                  tatem accusantium doloremque laudantium totam rem aperiam
-                  eaques quae abillo inventore veritatis et quasi architecto
+                  Allow us to introduce our remarkable team, a group of passionate individuals who are dedicated to delivering exceptional services.
                 </p>
                 <ul className="list-style-one pt-10 pb-45">
                   <li>Experience Team Members</li>
@@ -996,121 +986,6 @@ const Index = () => {
               </div>
             </div>
           </Slider>
-        </div>
-      </section>
-      {/* Testimonials Section End */}
-      {/* Blog Section Start */}
-      <section className="blog-section pt-120 rpt-90">
-        <div className="container">
-          <div className="section-title text-center mb-55">
-            <span className="sub-title-two">Latest News &amp; Blog</span>
-            <h2>Get Every Single Updates</h2>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-2s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two1.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>15</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Designing Better Link Web Site and Emailsite
-                      </Link>
-                    </h4>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-4s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two2.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>23</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Variables In The Hugo Seen Static Site Generator
-                      </Link>
-                    </h4>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-6s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two3.jpg" alt="Blog" />
-                  <span className="date">
-                    April <span>04</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Performance Checklist 2022 Apple Pages MS Word
-                      </Link>
-                    </h4>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr className="mt-95 rmt-65" />
         </div>
       </section>
       {/* Blog Section End */}

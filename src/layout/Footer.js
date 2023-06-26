@@ -45,13 +45,13 @@ const FollowIcon = () => (
   Courses = () => (
     <Fragment>
       <li>
-        <Link href="/course-details">Life Coach</Link>
+        <Link href="/course-details">CCC</Link>
       </li>
       <li>
-        <Link href="/course-details">Business Coach</Link>
+        <Link href="/course-details">C, C++</Link>
       </li>
       <li>
-        <Link href="/course-details">Health Coach</Link>
+        <Link href="/course-details">HTML</Link>
       </li>
       <li>
         <Link href="/course-details">Development</Link>
@@ -60,7 +60,7 @@ const FollowIcon = () => (
         <Link href="/course-details">Web Design</Link>
       </li>
       <li>
-        <Link href="/course-details">SEO Optimize</Link>
+        <Link href="/course-details">O Level</Link>
       </li>
     </Fragment>
   ),
@@ -117,8 +117,7 @@ const FollowIcon = () => (
             <div className="footer-widget about-widget">
               <h5 className="footer-title">About Us</h5>
               <p>
-                Sit amet consectetur adipiscin seeiusmod tempor incididunt ut
-                dolore magna aliqu asusp disse ultrices gravida commodo
+                SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals.
               </p>
               <h5 className="pt-5">Follow Us</h5>
               <div className="social-style-one">
