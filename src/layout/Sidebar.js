@@ -37,7 +37,7 @@ const Sidebar = () => {
                   type="email"
                   name="email"
                   defaultValue=""
-                  placeholder="Email Address"
+                  placeholder="Enter Mobile No."
                   required=""
                 />
               </div>
