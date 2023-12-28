@@ -395,7 +395,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <div className="mobile-logo br-10 p-15">
                       <Link href="/">
                         <a>
-                          <img
+                          <img 
                             src="assets/images/logos/logoSms.jpg"
                             alt="Logo"
                             title="Logo"
@@ -474,9 +474,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <a>Home</a>
         </Link>
       </li>
-      <li>
+      <li className="dropdown-btn">
         <Link href="/about">
-          <a>About</a>
+          <a>About Us</a>
         </Link>
       </li>
       {/* <li className="dropdown">
@@ -498,6 +498,22 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <a>Contact Us</a>
         </Link>
       </li>
+      <li>
+        <Link href="/contact">
+          <a>Council</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/contact">
+          <a>Collaboration</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/contact">
+          <a>Publication</a>
+        </Link>
+      </li>
+      
       {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>

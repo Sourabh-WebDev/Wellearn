@@ -15,7 +15,7 @@ const IndexSlider = () => {
       <div className="main-slider">
         <div
           className={`slider-item ${active == 1 ? "slick-active" : ""}`}
-          style={{ backgroundImage: "url(assets/images/slider/slide1.jpg)" }}
+          style={{ backgroundImage: "url(https://ipespharma.com/images/main-slider/image-1.jpg)" }}
         >
           <div className="container">
             {/* <div className="slider-content">
@@ -39,14 +39,14 @@ const IndexSlider = () => {
         </div>
         <div
           className={`slider-item ${active == 2 ? "slick-active" : ""}`}
-          style={{ backgroundImage: "url(assets/images/slider/slide2.jpg)" }}
+          style={{ backgroundImage: "url(https://ipespharma.com/images/main-slider/image-3.jpg)" }}
         >
           <div className="container">
-            <div className="slider-content">
+            {/* <div className="slider-content">
               <span className="sub-title-three">
                 Welcome to <span>Wellearn</span>
               </span>
-              <h2>Build Bright Life? Learn Many Things With Wellearn</h2>
+              <h2>Build Bright Life? Learn Many Things With WellearnA</h2>
               <div className="slider-btns">
                 <a href="#" className="theme-btn style-four">
                   Get started <i className="fas fa-arrow-right" />
@@ -58,15 +58,15 @@ const IndexSlider = () => {
                   <i className="fas fa-play" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div
           className={`slider-item ${active == 3 ? "slick-active" : ""}`}
-          // style={{ backgroundImage: "url(assets/images/slider/slide3.jpg)" }}
+          style={{ backgroundImage: "url(https://ipespharma.com/images/main-slider/image-2.jpg)" }}
         >
           <div className="container">
-            <div className="slider-content">
+            {/* <div className="slider-content">
               <span className="sub-title-three">
                 Welcome to <span>Wellearn</span>
               </span>
@@ -82,7 +82,7 @@ const IndexSlider = () => {
                   <i className="fas fa-play" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

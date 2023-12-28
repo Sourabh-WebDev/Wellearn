@@ -9,7 +9,7 @@ const Index = () => {
       <Index3Slider />
       {/* Feature Section Start */}
       <section className="freature-section-four rel z-1 pb-90 rpb-70">
-        <div className="slider-counter text-white">
+        {/* <div className="slider-counter text-white">
           <div className="row">
             <div className="col-sm-6">
               <div className="success-item style-two wow fadeInLeft delay-0-2s">
@@ -38,10 +38,10 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <div className="row large-gap mb-60">
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="about-three-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
                   <span className="sub-title-three">
@@ -55,8 +55,8 @@ const Index = () => {
                   </a>
                 </Link>
               </div>
-            </div>
-            <div className="col-lg-6">
+            </div> */}
+            {/* <div className="col-lg-6">
               <div className="about-three-text pt-55 wow fadeInRight delay-0-2s">
                 <p>
                   Sed ut perspiciatis unde omnis natus error voluptatem
@@ -69,7 +69,86 @@ const Index = () => {
                   etest quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
               </div>
+            </div> */}
+
+            <div className="row">
+              <div className="col-5">
+                <div className=" ">
+                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", }}> Lastest News</h3>
+                </div>
+                <div className="form-box">
+
+                  <marquee direction="up" scrollamount="3" >
+                    <ul>
+                      <li>
+                        <a href="#" target="_blank">Online International Elocution Competition for Students of Pharmacy. Read more...</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">IPES Invitation form</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding Affiliation, Accreditation, Collaboration, Partnership & Associatship for different programs</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding Conduction of Events, Workshops, Seminars, Conferences, Talks & Programs</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding Invitation for Honorary Executive position</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding Invitation for Social media</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding IPES Awardees in Annual Award Ceremony</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding IPES Digital Learning Initiative</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding IPES Intro, Vision & Mission</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">Regarding IPES Membership</a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">IPES Roorkee Conference at motherhood university on 11th April 2020</a>
+                      </li>
+                    </ul>
+                  </marquee>
+                </div>
+
+              </div>
+              <div className="col-7">
+                <div>
+                  <h2 style={
+                    {
+                      textAlign: "center"
+                    }
+                  }>IPES Section</h2>
+                </div>
+                <div  className="d-flex ">
+                  <div style={{marginRight:"10px"}} className=" ">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-5.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Recruiter Login</a></p>
+                  </div>
+
+                  <div style={{textAlign:"center"}} className="">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-5.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Recruiter Login</a></p>
+                  </div>
+                </div>
+
+              </div>
             </div>
+
           </div>
           <div className="row align-items-center">
             <div className="col-lg-3 col-sm-6">
