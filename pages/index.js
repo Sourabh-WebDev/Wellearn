@@ -1,217 +1,202 @@
 import Link from "next/link";
 import Slider from "react-slick";
-import Advertise from "../src/components/Advertise";
-import Counter from "../src/components/Counter";
+import Index3Slider from "../src/components/slider/IndexSlider";
 import Layout from "../src/layout/Layout";
-import { index2Course, testimonialtwoSlider } from "../src/sliderProps";
-import StudentoftheYear from "./StudentoftheYear";
-
-
+import { coachSlider, testimonialthree } from "../src/sliderProps";
 const Index = () => {
   return (
-    <Layout>
-      {" "}
-      <section className="hero-section-two text-white text-center bg-blue rel z-1 pt-240 rpt-150 pb-80">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="hero-content-two">
-                <h1 className="mb-35 wow fadeInUp delay-0-2s">
-                  Build Bright Life? Learn Many Things Us
-                </h1>
-                <ul className="list-style-one wow fadeInUp delay-0-4s">
-                  <li>Experts Advisors</li>
-                  <li>538+ Courses</li>
-                  <li>Events &amp; Program</li>
-                </ul>
-                <div className="hero-two-btns mt-30 wow fadeInUp delay-0-6s">
-                  <Link href="/Course">
-                    <a className="theme-btn mb-15">
-                      Get started <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <a
-                    href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                    className="mfp-iframe video-play mb-15"
-                  >
-                    <i className="fas fa-play" /> <span>How it works</span>
-                  </a>
-                </div>
-                <div className="admin-speech mt-110 rmt-35 wow fadeInUp delay-0-8s">
-                  <div className="image">
-                    <img src="assets/images/hero/admin.jpg" alt="Admin" />
-                  </div>
-                  <p>
-                    Sit amet consectetur adipiscing elit sed do eiusmod tempore
-                    incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <span className="name">Brendan E. Cote</span>
-                </div>
+    <Layout header={3} footer={3}>
+      <Index3Slider />
+      {/* Feature Section Start */}
+      <section className="freature-section-four rel z-1 pb-90 rpb-70">
+        <div className="slider-counter text-white">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="success-item style-two wow fadeInLeft delay-0-2s">
+                <i className="fas fa-graduation-cap" />
+                <span
+                  className="count-text plus"
+                  data-speed={3000}
+                  data-stop={256}
+                >
+                  0
+                </span>
+                <span>Enrolled Students</span>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="success-item style-two wow fadeInLeft delay-0-4s">
+                <i className="fas fa-book" />
+                <span
+                  className="count-text plus"
+                  data-speed={3000}
+                  data-stop={3652}
+                >
+                  0
+                </span>
+                <span>Finished Session</span>
               </div>
             </div>
           </div>
         </div>
-        <div className="hero-two-left wow fadeInUp delay-0-6s">
-          <img src="assets/images/hero/hero-two-left.png" alt="Hero" />
-        </div>
-        <div className="hero-two-right wow fadeInRight delay-0-6s">
-          <img src="assets/images/hero/hero-two-right.png" alt="Hero" />
-        </div>
-        <img
-          className="circle-one"
-          src="assets/images/shapes/circle-one.png"
-          alt="Circle"
-        />
-        <img
-          className="circle-two"
-          src="assets/images/shapes/circle-two.png"
-          alt="Circle"
-        />
-      </section>
-      {/* Hero Section End */}
-      {/* Features Section Start */}
-      <section className="features-section-two rel z-1 pt-50 rpt-90 pb-75 rpb-45 text-center">
-        <h2>Our Pride</h2>
         <div className="container">
-          <StudentoftheYear />
-        </div>
-      </section>
-      <section className="features-section-two rel z-1 pt-120 rpt-90 pb-75 rpb-45">
-        <div className="container">
-          <div className="section-title text-center mb-55">
-            <span className="sub-title-two">How About SMS</span>
-            <h2>Opportunity for  Learning</h2>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
-              <div className="feature-two-item wow fadeInUp delay-0-2s">
-                <span className="number">01</span>
-                <div className="icon">
-                  <img src="assets/images/features/icon4.png" alt="Icon" />
-                </div>
-                <h4>Courses From Experts</h4>
-                <p>
-                  Unlock your potential with our courses led by industry experts. Gain invaluable knowledge and skills from seasoned professionals who are at the forefront of their respective fields.
-                </p>
-                <Link href="/about">
-                  <a className="details-btn">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="feature-two-item wow fadeInUp delay-0-4s">
-                <span className="number">02</span>
-                <div className="icon">
-                  <img src="assets/images/features/icon5.png" alt="Icon" />
-                </div>
-                <h4>Over 500+ Quality Topics</h4>
-                <p>
-                  Explore our extensive collection of over 500+ quality topics, designed to cater to your diverse interests and learning needs. Whether you're passionate about technology, arts, science, or business, we've got you covered.
-                </p>
-                <Link href="/about">
-                  <a className="details-btn">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="feature-two-item wow fadeInUp delay-0-6s">
-                <span className="number">03</span>
-                <div className="icon">
-                  <img src="assets/images/features/icon6.png" alt="Icon" />
-                </div>
-                <h4>Program Video Update</h4>
-                <p>
-                  Introducing our Program Video Update! Stay up-to-date with the latest developments and enhancements in our program through our informative video series.
-                </p>
-                <Link href="/about">
-                  <a className="details-btn">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section End */}
-      {/* About Section Start */}
-      <section className="about-section-two pb-120 rpb-95">
-        <div className="container">
-          <div className="row align-items-center">
+          <div className="row large-gap mb-60">
             <div className="col-lg-6">
-              <div className="about-two-left rmb-75 wow fadeInLeft delay-0-2s">
-                <div className="about-two-images">
-                  <img src="assets/images/about/about-two1.jpg" alt="About" />
-                  <img src="assets/images/about/about-two2.jpg" alt="About" />
-                </div>
-                <div className="about-image-over">
-                  <div className="about-image-over-item">
-                    <img src="assets/images/about/icon1.png" alt="Icon" />
-                    <h5>Experience Advisor</h5>
-                  </div>
-                  <div className="about-image-over-item">
-                    <img src="assets/images/about/icon2.png" alt="Icon" />
-                    <h5>Quality Video Tutorials</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="about-content-two wow fadeInRight delay-0-2s">
+              <div className="about-three-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">About SMS</span>
-                  <h2>Experience to  Learning Center</h2>
+                  <span className="sub-title-three">
+                    About <span>Learn Us</span>
+                  </span>
+                  <h2>We Are Much Experience to Learning University</h2>
                 </div>
+                <Link href="/about">
+                  <a className="read-more color-two mt-5">
+                    25 Years Of Experience In Education Services
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-three-text pt-55 wow fadeInRight delay-0-2s">
                 <p>
-                  SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals.{" "}
+                  Sed ut perspiciatis unde omnis natus error voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae abilloe inventore veritatis et quasi architecto
+                  beatae vitae
                 </p>
-                <div className="about-btns">
-                  <Link href="/about">
-                    <a className="theme-btn my-15">
-                      Learn more <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <Link href="/faqs">
-                    <a className="read-more">
-                      How it works <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
+                <p>
+                  Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                  etest quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-lg-3 col-sm-6">
+              <div className="feature-four-item wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img
+                    src="assets/images/features/feature1.jpg"
+                    alt="Feature"
+                  />
                 </div>
-                <div className="counter-wrap">
-                  <div className="success-item">
-                    <span
-                      className="count-text plus"
-                      data-speed={3000}
-                      data-stop={256}
-                    >
-                      <Counter end={256} />
-                    </span>
-                    <span>Enrolled Learner</span>
+                <div className="content">
+                  <span className="number">01</span>
+                  <h5>Undergraduate</h5>
+                  <span className="tour-type">Education Autumn Tour</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="feature-four-item wow fadeInUp delay-0-4s">
+                <div className="image">
+                  <img
+                    src="assets/images/features/feature2.jpg"
+                    alt="Feature"
+                  />
+                </div>
+                <div className="content">
+                  <span className="number">02</span>
+                  <h5>Postgraduate</h5>
+                  <span className="tour-type">Education Autumn Tour</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="feature-four-item wow fadeInUp delay-0-6s">
+                <div className="image">
+                  <img
+                    src="assets/images/features/feature3.jpg"
+                    alt="Feature"
+                  />
+                </div>
+                <div className="content">
+                  <span className="number">03</span>
+                  <h5>Research Fellow</h5>
+                  <span className="tour-type">Education Autumn Tour</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="feature-four-item wow fadeInUp delay-0-8s">
+                <div className="image">
+                  <img
+                    src="assets/images/features/feature4.jpg"
+                    alt="Feature"
+                  />
+                </div>
+                <div className="content">
+                  <span className="number">04</span>
+                  <h5>Master Degree</h5>
+                  <span className="tour-type">Education Autumn Tour</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Feature Section End */}
+      {/* About Section Start */}
+      <section className="about-section-three">
+        <div className="container">
+          <div className="row large-gap align-items-center">
+            <div className="col-lg-6">
+              <div className="about-three-image rmb-65 wow fadeInUp delay-0-2s">
+                <img src="assets/images/about/about-three.jpg" alt="About" />
+                <div className="about-three-image-content bg-light-blue rel text-white br-10">
+                  <img
+                    src="assets/images/about/about-three-icon.png"
+                    alt="Icon"
+                  />
+                  <span className="counter-number">
+                    <span />
+                  </span>
+                  <h4>Saticfied Students and parents</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-content-three wow fadeInUp delay-0-4s">
+                <div className="section-title mb-40">
+                  <span className="sub-title-three mb-25">
+                    How Abo<span>ut Learn</span>
+                  </span>
+                  <h2>Opportunity for Online Learning Study</h2>
+                </div>
+                <div className="feature-five-item">
+                  <div className="icon">
+                    <img src="assets/images/features/icon21.png" alt="Icon" />
                   </div>
-                  <div className="success-item">
-                    <span
-                      className="count-text plus"
-                      data-speed={3000}
-                      data-stop="2.36"
-                    >
-                      <Counter end={2.36} />
-                    </span>
-                    <span>Finished Session</span>
+                  <div className="content">
+                    <h4>Innovative Courses</h4>
+                    <p>
+                      Sed ut perspiciatis unde omnis voluptatem accusantium
+                      doloremque laudantium totam aperiam eaque
+                    </p>
                   </div>
-                  <div className="success-item">
-                    <span
-                      className="count-text percent"
-                      data-speed={3000}
-                      data-stop={99}
-                    >
-                      <Counter end={99} />
-                    </span>
-                    <span>Saticfaction Rate</span>
+                </div>
+                <div className="feature-five-item">
+                  <div className="icon">
+                    <img src="assets/images/features/icon22.png" alt="Icon" />
+                  </div>
+                  <div className="content">
+                    <h4>Top Instructors</h4>
+                    <p>
+                      Quis autem vel eum iure reprehenderit quein ea luptate
+                      velit esse quam nihil molestiae consequatur
+                    </p>
+                  </div>
+                </div>
+                <div className="feature-five-item">
+                  <div className="icon">
+                    <img src="assets/images/features/icon23.png" alt="Icon" />
+                  </div>
+                  <div className="content">
+                    <h4>ISO Cretified Courses</h4>
+                    <p>
+                      Quis autem vel eum iure reprehenderit quein ea luptate
+                      velit esse quam nihil molestiae consequatur
+                    </p>
                   </div>
                 </div>
               </div>
@@ -220,772 +205,686 @@ const Index = () => {
         </div>
       </section>
       {/* About Section End */}
-      {/* Categories Section Start */}
-      <section className="categories-section bg-lighter rel z-1 py-75 rpb-85">
+      {/* Call To Action Start */}
+      <section className="call-to-action rel z-2 mt-125 rmt-95">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
-              <div className="categories-content rmb-65 wow fadeInUp delay-0-2s">
-                <div className="section-title mb-25">
-                  <span className="sub-title-two">Popular Category</span>
-                  <h2>Browse Our  Course Categories</h2>
+          <div className="call-to-action-inner wow zoomIn delay-0-2s">
+            <div className="row align-items-center">
+              <div className="col-lg-8">
+                <div className="notification rmb-25">
+                  <img
+                    src="assets/images/shapes/notification.png"
+                    alt="Notification"
+                  />
+                  <div className="content">
+                    <h4>Get Online Courses</h4>
+                    <p>Met consectetur adipiscing sed eiustempore dolore</p>
+                  </div>
                 </div>
-                <p>
-                  "We provide the best and excellent courses with top faculties."
-                </p>
-                <Link href="/course-details">
-                  <a className="read-more color-two mt-5">
-                    View categories <i className="fas fa-arrow-right" />
+              </div>
+              <div className="col-lg-4 text-lg-right">
+                <Link href="/become-instructor">
+                  <a className="theme-btn style-four">
+                    Join with us <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="categories-wrap wow fadeInUp delay-0-4s">
-                <div className="row">
-                  <div className="col-md-4 col-sm-6">
-                    <div className="category-item mt-35">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon1.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>Web Design</h4>
-                    </div>
-                    <div className="category-item">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon2.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>Development</h4>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="category-item">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon3.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>C, C++</h4>
-                    </div>
-                    <div className="category-item">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon4.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>Technology</h4>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="category-item mt-40">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon5.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>Technology</h4>
-                    </div>
-                    <div className="category-item">
-                      <div className="icon">
-                        <img
-                          src="assets/images/categories/icon6.png"
-                          alt="Icon"
-                        />
-                      </div>
-                      <h4>CCC</h4>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* Categories Section End */}
+      {/* Call To Action End */}
       {/* Coach Section Start */}
-      <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
-        <div className="container">
+      <section className="coach-section-two bg-light-two rel z-1 pt-185 rpt-150 pb-130 rpb-100">
+        <div className="container for-circle rpt-5">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-8">
-              <div className="section-title text-center mb-45">
-                <span className="sub-title-two">Latest Courses</span>
+              <div className="section-title text-center mb-50">
+                <span className="sub-title-three">
+                  Our Latest <span>Courses</span>
+                </span>
                 <h2>Browser Latest Courses</h2>
               </div>
             </div>
           </div>
-          <Slider {...index2Course} className="coach-slider">
-            <div className="coach-item style-two wow fadeInUp delay-0-2s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach1.jpg" alt="Coach" />
+          <Slider {...coachSlider} className="coach-slider">
+            <div className="coach-item-two wow fadeInUp delay-0-2s">
+              <div className="image">
+                <img src="assets/images/coachs/course11.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
                   <a className="category">Web Design</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Basic Web Design by Photoshop and Figma
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author11.jpg"
+                      alt="Author"
+                    />
                     <span>
                       By <b>Bennie L.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>38 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                  <span className="price">95</span>
-                </div>
               </div>
             </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-4s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach2.jpg" alt="Coach" />
+            <div className="coach-item-two wow fadeInUp delay-0-4s">
+              <div className="image">
+                <img src="assets/images/coachs/course12.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
-                  <a className="category">Development</a>
+                  <a className="category">Business Studies</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Web Development by Php and WordPress
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author12.jpg"
+                      alt="Author"
+                    />
                     <span>
-                      By <b>Bennie L.</b>
+                      By <b>Michael R.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>30 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(32)</span>
-                  </div>
-                  <span className="price">38</span>
-                </div>
               </div>
             </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-6s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach3.jpg" alt="Coach" />
+            <div className="coach-item-two wow fadeInUp delay-0-6s">
+              <div className="image">
+                <img src="assets/images/coachs/course13.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
-                  <a className="category">Marketing</a>
+                  <a className="category">English</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Basic Marketing Strategy for Research
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author13.jpg"
+                      alt="Author"
+                    />
                     <span>
-                      By <b>Bennie L.</b>
+                      By <b>Nelson E.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>50 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(68)</span>
-                  </div>
-                  <span className="price">0</span>
-                </div>
               </div>
             </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-2s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach1.jpg" alt="Coach" />
+            <div className="coach-item-two wow fadeInUp delay-0-8s">
+              <div className="image">
+                <img src="assets/images/coachs/course11.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
                   <a className="category">Web Design</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Basic Web Design by Photoshop and Figma
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author11.jpg"
+                      alt="Author"
+                    />
                     <span>
                       By <b>Bennie L.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>38 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                  <span className="price">95</span>
-                </div>
               </div>
             </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-4s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach2.jpg" alt="Coach" />
+            <div className="coach-item-two wow fadeInUp delay-0-2s">
+              <div className="image">
+                <img src="assets/images/coachs/course12.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
-                  <a className="category">Development</a>
+                  <a className="category">Business Studies</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Web Development by Php and WordPress
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author12.jpg"
+                      alt="Author"
+                    />
                     <span>
-                      By <b>Bennie L.</b>
+                      By <b>Michael R.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>30 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(32)</span>
-                  </div>
-                  <span className="price">38</span>
-                </div>
               </div>
             </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-6s">
-              <div className="coach-image">
-                <img src="assets/images/coachs/coach3.jpg" alt="Coach" />
+            <div className="coach-item-two wow fadeInUp delay-0-4s">
+              <div className="image">
+                <img src="assets/images/coachs/course13.jpg" alt="Course" />
               </div>
-              <div className="coach-content">
+              <div className="content">
+                <div className="ratting-star">
+                  <i className="fas fa-star" />
+                  <span>5</span>
+                </div>
                 <Link href="/course-list">
-                  <a className="category">Marketing</a>
+                  <a className="category">English</a>
                 </Link>
                 <h4>
-                  <Link href="/course-details">
-                    How to Learn Basic Marketing Strategy for Research
+                  <Link href="course-details">
+                    How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
                 <ul className="coach-footer">
                   <li>
-                    <i className="fas fa-user-graduate" />
+                    <img
+                      src="assets/images/coachs/couse-author13.jpg"
+                      alt="Author"
+                    />
                     <span>
-                      By <b>Bennie L.</b>
+                      By <b>Nelson E.</b>
                     </span>
                   </li>
                   <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
                     <i className="far fa-user" />
-                    <span>seats</span>
+                    <span>50 seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(68)</span>
-                  </div>
-                  <span className="price">0</span>
-                </div>
               </div>
             </div>
           </Slider>
         </div>
       </section>
       {/* Coach Section End */}
-      {/* Advertise Area Start */}
-      <section className="advertise-area pb-100 rpb-70">
+      {/* Why Choose Start */}
+      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
-          <Advertise />
-        </div>
-      </section>
-      {/* Advertise Area End */}
-      {/* Team Section Start */}
-      <section className="team-section rel z-1 bg-blue text-white pb-100 rpb-70">
-        <div className="container">
-          <div className="row justify-content-between">
-            <div className="col-lg-5">
-              <div className="team-content pt-120 rpt-90 mb-30 rmb-75 wow fadeInUp delay-0-2s">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-lg-6">
+              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-25">
-                  <span className="sub-title-two">Meet Our Team</span>
-                  <h2>We Have Thousands Of Experience Team Members</h2>
+                  <span className="sub-title-three">
+                    Why Ch<span>oose Us</span>
+                  </span>
+                  <h2>We’re The Most Diverse Universities in USA</h2>
                 </div>
                 <p>
-                  Allow us to introduce our remarkable team, a group of passionate individuals who are dedicated to delivering exceptional services.
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                  santium doloremque laudantium, totam rem aperiam, eaque ipsa
+                  quae abillo inventore veritatis et quasi architecto beatae
+                  vitae dicta sunt explica boemo enim ipsam voluptatem quia
+                  voluptas
                 </p>
-                <ul className="list-style-one pt-10 pb-45">
-                  <li>Experience Team Members</li>
-                  <li>Lot’s of Video Tutorials</li>
-                  <li>Events &amp; Programs</li>
-                  <li>Free &amp; Premium Courses</li>
+                <ul className="list-style-four pt-5 pb-35">
+                  <li>Best Instructor &amp; Best Programs</li>
+                  <li>100% ISO Certified Gruentee</li>
+                  <li>Best Results Awards University</li>
                 </ul>
                 <Link href="/about">
-                  <a className="theme-btn">
+                  <a className="theme-btn style-four">
                     Learn more <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="team-members">
-                <div className="row align-items-center">
-                  <div className="col-sm-6 wow fadeInRight delay-0-2s">
-                    <div className="team-member">
-                      <img
-                        src="assets/images/teams/member1.png"
-                        alt="Team Member"
-                      />
-                      <div className="team-over">
-                        <h4>David S. Wickman</h4>
-                        <span>Wed Designer</span>
-                        <div className="social-style-two">
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-facebook-f" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-member">
-                      <img
-                        src="assets/images/teams/member2.png"
-                        alt="Team Member"
-                      />
-                      <div className="team-over">
-                        <h4>Steven A. Davis</h4>
-                        <span>Wed Developer</span>
-                        <div className="social-style-two">
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-facebook-f" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 wow fadeInRight delay-0-4s">
-                    <div className="team-member">
-                      <img
-                        src="assets/images/teams/member3.png"
-                        alt="Team Member"
-                      />
-                      <div className="team-over">
-                        <h4>Joe L. Bergmann</h4>
-                        <span>UI/UX Designer</span>
-                        <div className="social-style-two">
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-facebook-f" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-member">
-                      <img
-                        src="assets/images/teams/member4.png"
-                        alt="Team Member"
-                      />
-                      <div className="team-over">
-                        <h4>Marco A. Tolliver</h4>
-                        <span>Web Designer</span>
-                        <div className="social-style-two">
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-facebook-f" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-member">
-                      <img
-                        src="assets/images/teams/member5.png"
-                        alt="Team Member"
-                      />
-                      <div className="team-over">
-                        <h4>Claude M. Remley</h4>
-                        <span>Web Developer</span>
-                        <div className="social-style-two">
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-facebook-f" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className="col-lg-5">
+              <div className="why-choose-images mt-10 wow fadeInUp delay-0-4s">
+                <img
+                  src="assets/images/why-choose/circle.png"
+                  alt="Circle"
+                  className="circle"
+                />
+                <img
+                  src="assets/images/why-choose/why-choose1.jpg"
+                  alt="Why Choose"
+                  className="why-choose-one"
+                />
+                <img
+                  src="assets/images/why-choose/why-choose2.jpg"
+                  alt="Why Choose"
+                  className="why-choose-two"
+                />
+                <img
+                  src="assets/images/why-choose/why-choose3.jpg"
+                  alt="Why Choose"
+                  className="why-choose-three"
+                />
               </div>
             </div>
           </div>
         </div>
-        <span className="bg-text">Advisors</span>
       </section>
-      {/* Team Section End */}
+      {/* Why Choose End */}
       {/* Event Section Start */}
-      <section className="event-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
-        <div className="container">
-          <div className="section-title text-center mb-55">
-            <span className="sub-title-two">Event &amp; Program</span>
-            <h2>Upcoming Events &amp; program</h2>
-          </div>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="event-item-two wow fadeInUp delay-0-2s">
-                <span className="date">
-                  Mar <b>03</b> <span>2022</span>
-                </span>
-                <img src="assets/images/events/event-two1.jpg" alt="Event" />
-                <div className="content">
-                  <span className="location">
-                    <i className="fas fa-map-marker-alt" /> 55 Main Street, USA
-                  </span>
-                  <h4>
-                    <Link href="/contact">
-                      Useful VS Code Extensions Front-End Developers
-                    </Link>
-                  </h4>
+      <section className="event-section-three rel z-1">
+        <div className="container for-circle">
+          <div className="event-three-inner">
+            <div className="section-title text-center mb-40">
+              <span className="sub-title-three">
+                Events &amp; <span>Programs</span>
+              </span>
+              <h2>Browser Latest Events</h2>
+            </div>
+            <div className="row">
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three1.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 15</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Useful VS Code Extensions Front-End Developers
+                      </Link>
+                    </h4>
+                  </div>
                   <Link href="/contact">
-                    <a className="read-more color-two">
-                      Get ticket <i className="fas fa-arrow-right" />
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-4s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three2.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 17</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Roll New Features Without Hurting Loyal Users
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-6s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three3.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 19</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Ethical Design The Practical Getting-Started Guide
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-8s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three4.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 23</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Universal Principles Of User Experience Design
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="event-item-two wow fadeInUp delay-0-4s">
-                <span className="date">
-                  Mar <b>09</b> <span>2022</span>
-                </span>
-                <img src="assets/images/events/event-two2.jpg" alt="Event" />
-                <div className="content">
-                  <span className="location">
-                    <i className="fas fa-map-marker-alt" /> 55 Main Street, USA
-                  </span>
-                  <h4>
-                    <Link href="/contact">
-                      Guide To Newly Suppored Modern CSS Pseudo
-                    </Link>
-                  </h4>
-                  <Link href="/contact">
-                    <a className="read-more color-two">
-                      Get ticket <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
+            <div className="event-more-btn text-center pt-15">
+              <Link href="/blog">
+                <a className="theme-btn style-five">
+                  view more events <i className="fas fa-arrow-right" />
+                </a>
+              </Link>
             </div>
-            <div className="col-lg-12">
-              <hr className="mb-55" />
-            </div>
-            <div className="col-lg-6">
-              <div className="event-item-two wow fadeInUp delay-0-6s">
-                <span className="date">
-                  Mar <b>15</b> <span>2022</span>
-                </span>
-                <img src="assets/images/events/event-two3.jpg" alt="Event" />
-                <div className="content">
-                  <span className="location">
-                    <i className="fas fa-map-marker-alt" /> 55 Main Street, USA
-                  </span>
-                  <h4>
-                    <Link href="/contact">
-                      Deep Dive Into Eleventy Static Site Generator
-                    </Link>
-                  </h4>
-                  <Link href="/contact">
-                    <a className="read-more color-two">
-                      Get ticket <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="event-item-two wow fadeInUp delay-0-8s">
-                <span className="date">
-                  Mar <b>15</b> <span>2022</span>
-                </span>
-                <img src="assets/images/events/event-two4.jpg" alt="Event" />
-                <div className="content">
-                  <span className="location">
-                    <i className="fas fa-map-marker-alt" /> 55 Main Street, USA
-                  </span>
-                  <h4>
-                    <Link href="/contact">
-                      Contexts Variables In That Static Site Generator
-                    </Link>
-                  </h4>
-                  <Link href="/contact">
-                    <a className="read-more color-two">
-                      Get ticket <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="event-more-btn text-center pt-15">
-            <Link href="/blog">
-              <a className="theme-btn style-three">
-                view more events <i className="fas fa-arrow-right" />
-              </a>
-            </Link>
           </div>
         </div>
       </section>
       {/* Event Section End */}
-      {/* Testimonials Section Start */}
-      <section className="testimonials-section-two my-80 rel z-1">
+      {/* Testimonial Section Start */}
+      <section className="testimonial-three rel py-80">
         <div className="container">
-          <Slider
-            {...testimonialtwoSlider}
-            className="testimonial-two-wrap wow fadeInUp delay-0-2s"
-          >
-            <div className="testimonial-item-two">
-              <div className="testimonial-author-two">
-                <img
-                  src="assets/images/testimonials/testimonial-two1.jpg"
-                  alt="Author"
-                />
-              </div>
-              <div className="testimonial-content-two">
-                <div className="designation">
-                  <h3>Justin C. Swanson</h3>
-                  <span>Business Manager</span>
+          <div className="row align-items-center justify-content-between">
+            <div className="col-lg-5">
+              <div className="testimonial-three-content rel z-1 rmb-55 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-20">
+                  <span className="sub-title-three">
+                    Clients Tes<span>timonials</span>
+                  </span>
+                  <h2>People’s Say About Our University</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremq udantium totam rem aperiam eaque quae
-                  abillo inventore veritatis et quasi architecto beatae
+                  Rem aperiam eaque ipsa quae abillo inventore veritatis
+                  architecto beatae vitae dicta sunt explica
                 </p>
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
+                <Link href="/about">
+                  <a className="read-more color-two mt-5">
+                    View more <i className="fas fa-arrow-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <Slider
+                {...testimonialthree}
+                className="testimonial-three-wrap rel z-1 wow fadeInUp delay-0-4s"
+              >
+                <div className="testimonial-three-item">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-three-author.png"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="quality-rating">
+                      <h4>Good Quality</h4>
+                      <div className="ratting">
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                      </div>
+                    </div>
+                    <p>
+                      Sed ut perspiciatis unde omniste natus sit voluptate
+                      accusantium doloremq udantium totam aperiam eaque quae
+                      abillo inventore veritatis architecto beatae
+                    </p>
+                    <h5>Justin C. Swanson</h5>
+                    <span className="designation">Business Manager</span>
+                  </div>
+                </div>
+                <div className="testimonial-three-item">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-three-author.png"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="quality-rating">
+                      <h4>Good Quality</h4>
+                      <div className="ratting">
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                      </div>
+                    </div>
+                    <p>
+                      Doloremq udantium totam aperiam eaque quae abillo
+                      inventore veritatis architecto beatae Sed ut perspiciatis
+                      unde omniste natus sit voluptate accusantium
+                    </p>
+                    <h5>Robin I. Reed</h5>
+                    <span className="designation">Business Manager</span>
+                  </div>
+                </div>
+                <div className="testimonial-three-item">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-three-author.png"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="quality-rating">
+                      <h4>Good Quality</h4>
+                      <div className="ratting">
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                      </div>
+                    </div>
+                    <p>
+                      Veritatised ut perspiciatis unde omniste natus sit
+                      voluptate accusantium doloremq udantium totam aperiam
+                      eaque quae abillo inventore architecto
+                    </p>
+                    <h5>Robert G. Brown</h5>
+                    <span className="designation">Business Manager</span>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Testimonial Section End */}
+      {/* Blog Section Start */}
+      <section className="blog-section-three pt-120 rpt-90">
+        <div className="container">
+          <div className="section-title text-center mb-55">
+            <span className="sub-title-three">
+              Latest New<span>s &amp; Blog</span>
+            </span>
+            <h2>Get Every Single Updates</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="blog-item style-two wow fadeInUp delay-0-2s">
+                <div className="blog-image">
+                  <img src="assets/images/blog/blog4.jpg" alt="Blog" />
+                  <span className="date">
+                    March <span>15</span>
+                  </span>
+                </div>
+                <div className="blog-content">
+                  <div className="content">
+                    <ul className="blog-meta">
+                      <li>
+                        <i className="far fa-user" />{" "}
+                        <Link href="/blog">By Somalia</Link>
+                      </li>
+                      <li>
+                        <i className="far fa-comments" />{" "}
+                        <Link href="/blog">Comments (5)</Link>
+                      </li>
+                    </ul>
+                    <h4>
+                      <Link href="/blog-details">
+                        Designing Better Link Web Site and Emailsite
+                      </Link>
+                    </h4>
+                    <p>
+                      Quis autem vel eum iure reprehenderit quine voluptate
+                      velit esse quam molestiae
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="read-more">
+                        Read more <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="testimonial-item-two">
-              <div className="testimonial-author-two">
-                <img
-                  src="assets/images/testimonials/testimonial-two2.jpg"
-                  alt="Author"
-                />
-              </div>
-              <div className="testimonial-content-two">
-                <div className="designation">
-                  <h3>Daniel E. Yager</h3>
-                  <span>Business Manager</span>
+            <div className="col-lg-8">
+              <div className="blog-item style-two image-left wow fadeInUp delay-0-4s">
+                <div className="blog-image">
+                  <img src="assets/images/blog/blog5.jpg" alt="Blog" />
+                  <span className="date">
+                    March <span>23</span>
+                  </span>
                 </div>
-                <p>
-                  Aperiam eaque quae abillo inventore veritatis et quasi
-                  architecto beatae Sed ut perspiciatis unde omnis iste natus
-                  error sit voluptatem accusantium doloremq udantium totam rem
-                </p>
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
+                <div className="blog-content">
+                  <div className="content">
+                    <ul className="blog-meta">
+                      <li>
+                        <i className="far fa-user" />{" "}
+                        <Link href="/blog">By Somalia</Link>
+                      </li>
+                      <li>
+                        <i className="far fa-comments" />{" "}
+                        <Link href="/blog">Comments (5)</Link>
+                      </li>
+                    </ul>
+                    <h4>
+                      <Link href="/blog-details">
+                        Variables In The Hugo Seen Static Site Generator
+                      </Link>
+                    </h4>
+                    <p>
+                      Rem aperiam eaque sesa inventore veritatisy architecto
+                      beatae vitae dicta explica
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="read-more">
+                        Read more <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="blog-item style-two image-left wow fadeInUp delay-0-6s">
+                <div className="blog-image">
+                  <img src="assets/images/blog/blog6.jpg" alt="Blog" />
+                  <span className="date">
+                    April <span>04</span>
+                  </span>
+                </div>
+                <div className="blog-content">
+                  <div className="content">
+                    <ul className="blog-meta">
+                      <li>
+                        <i className="far fa-user" />{" "}
+                        <Link href="/blog">By Somalia</Link>
+                      </li>
+                      <li>
+                        <i className="far fa-comments" />{" "}
+                        <Link href="/blog">Comments (5)</Link>
+                      </li>
+                    </ul>
+                    <h4>
+                      <Link href="/blog-details">
+                        Designing The Perfect Feac ture Comparison Table
+                      </Link>
+                    </h4>
+                    <p>
+                      Rem aperiam eaque sesa inventore veritatisy architecto
+                      beatae vitae dicta explica
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="read-more">
+                        Read more <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="testimonial-item-two">
-              <div className="testimonial-author-two">
-                <img
-                  src="assets/images/testimonials/testimonial-two3.jpg"
-                  alt="Author"
-                />
-              </div>
-              <div className="testimonial-content-two">
-                <div className="designation">
-                  <h3>Stewart R. Platt</h3>
-                  <span>Business Manager</span>
-                </div>
-                <p>
-                  Voluptatem accusantium doloremq udantium totam rem Sed ut
-                  perspiciatis unde omnis iste natus error sit aperiam eaque
-                  quae abillo inventore veritatis et quasi architecto beatae
-                </p>
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-              </div>
-            </div>
-          </Slider>
+          </div>
+          <hr className="mt-100 rmt-70" />
         </div>
       </section>
       {/* Blog Section End */}
@@ -994,75 +893,169 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="categories-content mb-50 wow fadeInRight delay-0-2s">
+              <div className="categories-content mb-50 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-25">
-                  <span className="sub-title-two">Global Partners</span>
-                  <h2>We’ve More Then 235+ Global Partners</h2>
+                  <span className="sub-title-three">
+                    Global <span>Partners</span>
+                  </span>
+                  <h2>
+                    We’ve More Then <span className="number">235+</span> Global
+                    Partners
+                  </h2>
                 </div>
-                <Link href="/contact">
-                  <a className="read-more mt-5">
-                    View more partners <i className="fas fa-arrow-right" />
-                  </a>
-                </Link>
+                <a href="#" className="read-more color-two mt-5">
+                  View more partners <i className="fas fa-arrow-right" />
+                </a>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="logo-inner style-two wow fadeInLeft delay-0-2s">
+              <div className="logo-inner style-two wow fadeInUp delay-0-4s">
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two1.png"
+                      src=" "
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two2.png"
+                      src="assets/images/client-logos/client-logo5.png"
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two3.png"
+                      src="assets/images/client-logos/client-logo3.png"
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two4.png"
+                      src="assets/images/client-logos/client-logo4.png"
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two5.png"
+                      src="assets/images/client-logos/client-logo2.png"
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="logo-item">
-                  <Link href="/about">
+                  <a href="#">
                     <img
-                      src="assets/images/client-logos/client-logo-two6.png"
+                      src="assets/images/client-logos/client-logo6.png"
                       alt="Client Logo"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* Partner Section End */}
+      {/* Instagram Section Start */}
+      <div className="instagram-section footer-instagram rel z-1">
+        <div className="container-fluid">
+          <div className="row small-gap justify-content-center">
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-1s">
+                <img
+                  src="assets/images/instagram/instagram7.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram7.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-2s">
+                <img
+                  src="assets/images/instagram/instagram8.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram8.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-3s">
+                <img
+                  src="assets/images/instagram/instagram9.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram9.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-4s">
+                <img
+                  src="assets/images/instagram/instagram10.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram10.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-5s">
+                <img
+                  src="assets/images/instagram/instagram11.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram11.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+              <div className="instagram-item wow fadeInUp delay-0-6s">
+                <img
+                  src="assets/images/instagram/instagram12.jpg"
+                  alt="Instagram"
+                />
+                <div className="instagram-hover">
+                  <a href="assets/images/instagram/instagram12.jpg">
+                    <i className="fab fa-instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </Layout>
-  )
-}
-
-export default Index
+  );
+};
+export default Index;

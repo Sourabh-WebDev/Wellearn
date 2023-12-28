@@ -142,7 +142,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        src="assets/images/logos/logo-two.png"
+                        src="https://ipespharma.com/images/logo.png"
                         alt="Logo"
                         title="Logo"
                       />
@@ -440,6 +440,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 <button>
                   <i className="far fa-user-circle" />
                 </button>
+                
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
@@ -459,8 +460,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
   ),
   Menus = () => (
     <ul className="navigation clearfix d-none d-lg-flex">
-      {/* <li className="dropdown ">
-        <a href="#">home</a>
+      {/* <li>
+        <a href="/">Home</a>
         <ul>
           <Home />
         </ul>
@@ -521,16 +522,33 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 
 const HeaderTop = () => {
   const context = useContext(AppContext)
-
   return (
     <div className="header-top bg-light-blue text-white">
       <div className="container-fluid">
         <div className="top-inner">
           <div className="top-left">
-            <p>
-              <i className="far fa-clock" /> <b>Working Hours</b> : Manday -
-              Friday, 08am - 05pm
-            </p>
+            <div>
+              <p>
+                <marquee behavior="scroll" direction="left" scrollamount="5">
+                  <i /><img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <b>Initiative Programme Highlight</b>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span href ="#"> About Us</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span>Presidents Message</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span>Invitation for association of institute & colleges</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span>Submission of application for conduction of seminar/conference</span>
+                  <span>10 vacancies for a EXECUTIVE OFFICER</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span>Journal of Applied Pharmaceutical Sciences and Research</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                  <span>Invitation for meritorious person as honorable adviser</span>&nbsp;&nbsp;
+                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                </marquee>
+              </p>
+            </div>
           </div>
           <div className="top-right d-flex align-items-center">
             {/* <div className="social-style-two">
@@ -575,13 +593,13 @@ const HeaderTop = () => {
               <li className="loginSignUp_btn" style={{ position: "relative" }}>
                 {/* <a onClick={() => context.setCancel(!context.cancel)}  >Login / Register
                 </a> */}
-                <a >Login
-                </a>
-                <div className="LoginOptions card" style={{ position: "absolute", right: "0%", width: "fit-content", zIndex: "999" }}>
+                {/* <a >Login
+                </a> */}
+                {/* <div className="LoginOptions card" style={{ position: "absolute", right: "0%", width: "fit-content", zIndex: "999" }}>
                   <Link href={"https://smsfrontend.vercel.app/login-admin"} className=" ">Login as Admin</Link>
                   <Link href={"https://smsfrontend.vercel.app/login-student"} className=" ">Login as Student</Link>
                   <Link href={"https://smsfrontend.vercel.app/login-instructor"} className=" ">Login as Instructor</Link>
-                </div>
+                </div> */}
                 <ModalsForLoginSingup
                   show={context.cancel}
                   CancelAction={() => context.setCancel(!context.cancel)} />
