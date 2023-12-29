@@ -71,10 +71,10 @@ const Index = () => {
               </div>
             </div> */}
 
-            <div className="row">
+            <div style={{ marginTop: "35px" }} className="row" >
               <div className="col-5">
                 <div className=" ">
-                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", }}> Lastest News</h3>
+                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px", }}> Latest News</h3>
                 </div>
                 <div className="form-box">
 
@@ -118,7 +118,7 @@ const Index = () => {
                 </div>
 
               </div>
-              <div className="col-7">
+              <div style={{}} className="col-7">
                 <div>
                   <h2 style={
                     {
@@ -126,8 +126,9 @@ const Index = () => {
                     }
                   }>IPES Section</h2>
                 </div>
-                <div  className="d-flex ">
-                  <div style={{marginRight:"10px"}} className=" ">
+
+                <div style={{ marginTop: "40px" }} className="d-flex justify-content-between">
+                  <div style={{ marginRight: "10px", }} className=" ">
                     <span>
                       <a href="">
                         <img src="https://ipespharma.com/images/resource/services-icon-5.png" alt="icon" />
@@ -136,13 +137,51 @@ const Index = () => {
                     <p><a href="Recruiter Login.aspx">Recruiter Login</a></p>
                   </div>
 
-                  <div style={{textAlign:"center"}} className="">
+                  <div style={{ textAlign: "center" }} className="">
                     <span>
                       <a href="">
-                        <img src="https://ipespharma.com/images/resource/services-icon-5.png" alt="icon" />
+                        <img src="https://ipespharma.com/images/resource/services-icon-2.png" alt="icon" />
                       </a>
                     </span>
-                    <p><a href="Recruiter Login.aspx">Recruiter Login</a></p>
+                    <p><a href="Recruiter Login.aspx">Advisor Login</a></p>
+                  </div>
+
+                  <div style={{ marginRight: "10px", }} className=" ">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-3.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Students Login</a></p>
+                  </div>
+                </div>
+
+                <div style={{ marginTop: "100px" }} className="d-flex justify-content-between ">
+                  <div style={{ marginRight: "10px", }} className=" ">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-1.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Member Registration</a></p>
+                  </div>
+
+                  <div style={{ textAlign: "center" }} className="">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-4.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Career</a></p>
+                  </div>
+
+                  <div style={{ marginRight: "10px", }} className=" ">
+                    <span>
+                      <a href="">
+                        <img src="https://ipespharma.com/images/resource/services-icon-6.png" alt="icon" />
+                      </a>
+                    </span>
+                    <p><a href="Recruiter Login.aspx">Publication</a></p>
                   </div>
                 </div>
 
@@ -160,9 +199,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                  <span className="number">01</span>
-                  <h5>Undergraduate</h5>
-                  <span className="tour-type">Education Autumn Tour</span>
+                <span className="number">IPES</span>
+                  <h5>Financial Assistance</h5>
                 </div>
               </div>
             </div>
@@ -175,9 +213,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                  <span className="number">02</span>
-                  <h5>Postgraduate</h5>
-                  <span className="tour-type">Education Autumn Tour</span>
+                <span className="number">IPES</span>
+                  <h5>Professional Strength</h5>
                 </div>
               </div>
             </div>
@@ -190,9 +227,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                  <span className="number">03</span>
+                <span className="number">IPES</span>
                   <h5>Research Fellow</h5>
-                  <span className="tour-type">Education Autumn Tour</span>
                 </div>
               </div>
             </div>
@@ -205,9 +241,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                  <span className="number">04</span>
+                  <span className="number">IPES</span>
                   <h5>Master Degree</h5>
-                  <span className="tour-type">Education Autumn Tour</span>
                 </div>
               </div>
             </div>
@@ -216,7 +251,7 @@ const Index = () => {
       </section>
       {/* Feature Section End */}
       {/* About Section Start */}
-      <section className="about-section-three">
+      {/* <section className="about-section-three">
         <div className="container">
           <div className="row large-gap align-items-center">
             <div className="col-lg-6">
@@ -282,10 +317,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Section End */}
       {/* Call To Action Start */}
-      <section className="call-to-action rel z-2 mt-125 rmt-95">
+      {/* <section className="call-to-action rel z-2 mt-125 rmt-95">
         <div className="container">
           <div className="call-to-action-inner wow zoomIn delay-0-2s">
             <div className="row align-items-center">
@@ -311,7 +346,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Call To Action End */}
       {/* Coach Section Start */}
       <section className="coach-section-two bg-light-two rel z-1 pt-185 rpt-150 pb-130 rpb-100">
@@ -319,10 +354,7 @@ const Index = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-8">
               <div className="section-title text-center mb-50">
-                <span className="sub-title-three">
-                  Our Latest <span>Courses</span>
-                </span>
-                <h2>Browser Latest Courses</h2>
+                <h2>IPES Services</h2>
               </div>
             </div>
           </div>
@@ -337,28 +369,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">Web Design</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author11.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>38 seats</span>
-                  </li>
-                </ul>
+               
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-4s">
@@ -371,28 +389,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">Business Studies</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author12.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Michael R.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>30 seats</span>
-                  </li>
-                </ul>
+               
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-6s">
@@ -405,28 +409,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">English</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author13.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Nelson E.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>50 seats</span>
-                  </li>
-                </ul>
+               
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-8s">
@@ -439,28 +429,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">Web Design</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author11.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>38 seats</span>
-                  </li>
-                </ul>
+               
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-2s">
@@ -473,28 +449,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">Business Studies</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author12.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Michael R.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>30 seats</span>
-                  </li>
-                </ul>
+                
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-4s">
@@ -507,28 +469,14 @@ const Index = () => {
                   <span>5</span>
                 </div>
                 <Link href="/course-list">
-                  <a className="category">English</a>
+                  <a className="category">IPES</a>
                 </Link>
                 <h4>
                   <Link href="course-details">
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <img
-                      src="assets/images/coachs/couse-author13.jpg"
-                      alt="Author"
-                    />
-                    <span>
-                      By <b>Nelson E.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>50 seats</span>
-                  </li>
-                </ul>
+               
               </div>
             </div>
           </Slider>
@@ -536,7 +484,7 @@ const Index = () => {
       </section>
       {/* Coach Section End */}
       {/* Why Choose Start */}
-      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+      {/* <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
@@ -592,10 +540,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Why Choose End */}
       {/* Event Section Start */}
-      <section className="event-section-three rel z-1">
+      {/* <section className="event-section-three rel z-1">
         <div className="container for-circle">
           <div className="event-three-inner">
             <div className="section-title text-center mb-40">
@@ -723,10 +671,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Event Section End */}
       {/* Testimonial Section Start */}
-      <section className="testimonial-three rel py-80">
+      {/* <section className="testimonial-three rel py-80">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5">
@@ -838,138 +786,14 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Section End */}
       {/* Blog Section Start */}
-      <section className="blog-section-three pt-120 rpt-90">
-        <div className="container">
-          <div className="section-title text-center mb-55">
-            <span className="sub-title-three">
-              Latest New<span>s &amp; Blog</span>
-            </span>
-            <h2>Get Every Single Updates</h2>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-2s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog4.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>15</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Designing Better Link Web Site and Emailsite
-                      </Link>
-                    </h4>
-                    <p>
-                      Quis autem vel eum iure reprehenderit quine voluptate
-                      velit esse quam molestiae
-                    </p>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-8">
-              <div className="blog-item style-two image-left wow fadeInUp delay-0-4s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog5.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>23</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Variables In The Hugo Seen Static Site Generator
-                      </Link>
-                    </h4>
-                    <p>
-                      Rem aperiam eaque sesa inventore veritatisy architecto
-                      beatae vitae dicta explica
-                    </p>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="blog-item style-two image-left wow fadeInUp delay-0-6s">
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog6.jpg" alt="Blog" />
-                  <span className="date">
-                    April <span>04</span>
-                  </span>
-                </div>
-                <div className="blog-content">
-                  <div className="content">
-                    <ul className="blog-meta">
-                      <li>
-                        <i className="far fa-user" />{" "}
-                        <Link href="/blog">By Somalia</Link>
-                      </li>
-                      <li>
-                        <i className="far fa-comments" />{" "}
-                        <Link href="/blog">Comments (5)</Link>
-                      </li>
-                    </ul>
-                    <h4>
-                      <Link href="/blog-details">
-                        Designing The Perfect Feac ture Comparison Table
-                      </Link>
-                    </h4>
-                    <p>
-                      Rem aperiam eaque sesa inventore veritatisy architecto
-                      beatae vitae dicta explica
-                    </p>
-                    <Link href="/blog-details">
-                      <a className="read-more">
-                        Read more <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr className="mt-100 rmt-70" />
-        </div>
-      </section>
+    
       {/* Blog Section End */}
       {/* Partner Section Start */}
       <section className="partner-section rel z-1 pt-105 rpt-75 pb-75 rpb-55">
-        <div className="container">
+        {/* <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="categories-content mb-50 wow fadeInUp delay-0-2s">
@@ -1040,6 +864,113 @@ const Index = () => {
               </div>
             </div>
           </div>
+        </div> */}
+
+        <div>
+          <div style={{ textAlign: "center" }}><h3>EXPLORE IPES</h3></div>
+        </div>
+        <div className="row ">
+          <div style={{ display: "flex" }}>
+            <div className="clo-6">
+              <div style={{ marginLeft: "80px" }} className="">
+                <img src="https://ipespharma.com/images/resource/gallery.jpg" width={"550px"} height={"380px"} alt="img" />
+              </div>
+              <div style={{ marginLeft: "80px", marginTop: "10px" }}>
+                <button type="button" class="btn btn-danger">Visit Gallery</button>
+              </div>
+            </div>
+
+            <div style={{ marginLeft: "100px" }} className="clo-6">
+              <div style={{ marginTop: "40px", marginRight: "20px" }} className="d-flex justify-content-between">
+                <div className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/aboutus.png" width={"80px"} height={"80px"} alt="icon1" />
+                    </a>
+                  </span>
+                </div>
+
+                <div style={{ textAlign: "center" }} className="">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/council.png" width={"80px"} height={"80px"} alt="icon2" />
+                    </a>
+                  </span>
+                </div>
+
+                <div style={{ marginRight: "10px", }} className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/collaboration.png" width={"80px"} height={"80px"} alt="icon3" />
+                    </a>
+                  </span>
+                </div>
+                <div style={{ marginRight: "10px", }} className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/career.png" width={"80px"} height={"80px"} alt="icon4" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+
+              <div style={{ marginTop: "40px", }} className="d-flex justify-content-between">
+                <div className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/aboutus.png" width={"80px"} height={"80px"} alt="icon1" />
+                    </a>
+                  </span>
+                </div>
+
+                <div style={{ textAlign: "center" }} className="">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/council.png" width={"80px"} height={"80px"} alt="icon2" />
+                    </a>
+                  </span>
+                </div>
+
+                <div style={{ marginRight: "10px", }} className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/collaboration.png" width={"80px"} height={"80px"} alt="icon3" />
+                    </a>
+                  </span>
+                </div>
+                <div style={{ marginRight: "10px", }} className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/career.png" width={"80px"} height={"80px"} alt="icon4" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+
+              <div style={{ marginTop: "40px", }} className="d-flex justify-content">
+                <div className=" ">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/aboutus.png" width={"80px"} height={"80px"} alt="icon1" />
+                    </a>
+                  </span>
+                </div>
+
+                <div style={{ textAlign: "center" }} className="">
+                  <span>
+                    <a href="">
+                      <img src="https://ipespharma.com/images/resource/council.png" width={"80px"} height={"80px"} alt="icon2" />
+                    </a>
+                  </span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
         </div>
       </section>
       {/* Partner Section End */}
