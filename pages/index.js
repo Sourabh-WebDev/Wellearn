@@ -71,48 +71,59 @@ const Index = () => {
               </div>
             </div> */}
 
-            <div style={{ marginTop: "35px" }} className="row" >
-              <div className="col-5">
-                <div className=" ">
-                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px",  }}> Latest News</h3>
+            <div style={{ marginTop: "35px", }} className="row" >
+              <div style={{backgroundColor: "whitesmoke", height: "500px"}} className="col-5">
+                <div>
+                <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px", color: "Highlight" }}> Latest News</h3>
                 </div>
-                <div className="form-box">
 
+                <div className="form-box">
                   <marquee direction="up" scrollamount="3" >
                     <ul>
                       <li>
                         <a href="#" target="_blank">Online International Elocution Competition for Students of Pharmacy. Read more...</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">IPES Invitation form</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding Affiliation, Accreditation, Collaboration, Partnership & Associatship for different programs</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding Conduction of Events, Workshops, Seminars, Conferences, Talks & Programs</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding Invitation for Honorary Executive position</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding Invitation for Social media</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding IPES Awardees in Annual Award Ceremony</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding IPES Digital Learning Initiative</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding IPES Intro, Vision & Mission</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">Regarding IPES Membership</a>
                       </li>
+                      <hr/>
                       <li>
                         <a href="#" target="_blank">IPES Roorkee Conference at motherhood university on 11th April 2020</a>
                       </li>
+                      <hr/>
                     </ul>
                   </marquee>
                 </div>
@@ -127,7 +138,7 @@ const Index = () => {
                   }>IPES Section</h2>
                 </div>
 
-                <div style={{ marginTop: "40px" }} className="d-flex justify-content-between">
+                <div style={{ marginTop: "40px", marginLeft: "120px" }} className="d-flex justify-content-between">
                   <div style={{ marginRight: "10px", }} className=" ">
                     <span>
                       <a href="">
@@ -156,7 +167,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div style={{ marginTop: "100px" }} className="d-flex justify-content-between ">
+                <div style={{ marginTop: "100px", marginLeft: "120px" }} className="d-flex justify-content-between ">
                   <div style={{ marginRight: "10px", }} className=" ">
                     <span>
                       <a href="">
@@ -866,7 +877,7 @@ const Index = () => {
         </div> */}
 
         <div>
-          <div style={{ textAlign: "center" }}><h3>EXPLORE IPES</h3></div>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}><h3>EXPLORE IPES</h3></div>
         </div>
         <div className="row ">
           <div style={{ display: "flex" }}>
@@ -897,14 +908,14 @@ const Index = () => {
                   </span>
                 </div>
 
-                <div style={{ marginRight: "10px", }} className=" ">
+                <div style={{ marginRight: "0px", }} className=" ">
                   <span>
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/collaboration.png" width={"80px"} height={"80px"} alt="icon3" />
                     </a>
                   </span>
                 </div>
-                <div style={{ marginRight: "10px", }} className=" ">
+                <div style={{ marginRight: "0px", }} className=" ">
                   <span>
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/career.png" width={"80px"} height={"80px"} alt="icon4" />
@@ -916,7 +927,6 @@ const Index = () => {
               <div style={{ marginTop: "40px", }} className="d-flex justify-content-between">
                 <div className=" ">
                   <span>
-                    
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/aboutus.png" width={"80px"} height={"80px"} alt="icon1" />
                     </a>
@@ -931,14 +941,14 @@ const Index = () => {
                   </span>
                 </div>
 
-                <div style={{ marginRight: "10px", }} className=" ">
+                <div style={{ marginRight: "0px", }} className=" ">
                   <span>
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/collaboration.png" width={"80px"} height={"80px"} alt="icon3" />
                     </a>
                   </span>
                 </div>
-                <div style={{ marginRight: "10px", }} className=" ">
+                <div style={{ marginRight: "0px", }} className=" ">
                   <span>
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/career.png" width={"80px"} height={"80px"} alt="icon4" />

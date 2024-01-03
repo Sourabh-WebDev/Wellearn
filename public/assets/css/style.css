@@ -3975,7 +3975,7 @@ h6,
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  padding: 30px 25px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
