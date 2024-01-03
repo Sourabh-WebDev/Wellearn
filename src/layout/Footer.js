@@ -20,22 +20,22 @@ const Footer = ({ footer }) => {
 export default Footer;
 const FollowIcon = () => (
   <Fragment>
-    <Link href="/contact">
+    <Link href="#">
       <a>
         <i className="fab fa-facebook-f" />
       </a>
     </Link>
-    <Link href="/contact">
+    <Link href="#">
       <a>
         <i className="fab fa-twitter" />
       </a>
     </Link>
-    <Link href="/contact">
+    <Link href="#">
       <a>
         <i className="fab fa-linkedin-in" />
       </a>
     </Link>
-    <Link href="/contact">
+    <Link href="#">
       <a>
         <i className="fab fa-youtube" />
       </a>
@@ -299,11 +299,11 @@ const FollowIcon = () => (
         <div className="row justify-content-between text-white pt-65">
           <div className="col-lg-3 col-sm-4">
             <div className="footer-widget about-widget">
-              <h5 className="footer-title">About Us</h5>
+              {/* <h5 className="footer-title">About Us</h5> */}
               <p>
-                Sit amet consectetur adipiscin seeiusmod tempor incididunt ut
-                dolore magna aliqu asusp disse ultrices gravida commodo
+                <img src="https://ipespharma.com/images/footer-logo.png" alt="logoFooter" />
               </p>
+              <p>Indian pharma educational society [IPES] is scientific & innovative organization for the development of pharmaceutical profession.</p>
               <h5 className="pt-5">Follow Us</h5>
               <div className="social-style-one">
                 <FollowIcon />
@@ -314,7 +314,15 @@ const FollowIcon = () => (
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Courses</h5>
               <ul>
-                <Courses />
+                {/* <Courses /> */}
+
+                <li>Placement</li>
+                <li>Membership</li>
+                <li>Publication</li>
+                <li>Join IPES</li>
+                <li>IPES Forum</li>
+                <li> Guidelines &</li>
+                <li> Regulations</li>
               </ul>
             </div>
           </div>
@@ -333,16 +341,16 @@ const FollowIcon = () => (
                   <h5 className="footer-title">Get In Touch</h5>
                   <ul>
                     <li>
-                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
-                      2nd Block, New York
+                      <i className="fas fa-map-marker-alt" /> Jankipuram, Lucknow - 226021
+
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:support@gmail.com">ipespharma@gmail.com</a>
                     </li>
                     <li>
                       <i className="fas fa-phone" />{" "}
-                      <a href="callto:+0123456789">+012 (345) 67 89</a>
+                      <a href="callto:+0123456789">+91-9161934250</a>
                     </li>
                     <li>
                       <i className="far fa-clock" /> Sunday - Friday,

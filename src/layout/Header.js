@@ -165,7 +165,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                         </a>
                       </Link>
                     </div>
+
                     {/* Toggle Button */}
+
                     <button
                       type="button"
                       className="navbar-toggle"
@@ -176,6 +178,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                     </button>
+                    
                   </div>
                   <div
                     className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
@@ -489,27 +492,27 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </div>
       </li> */}
       <li>
-        <Link href="/course-timeline">
+        <Link href="/">
           <a>Courses</a>
         </Link>
       </li>
       <li>
-        <Link href="/contact">
+        <Link href="/">
           <a>Contact Us</a>
         </Link>
       </li>
       <li>
-        <Link href="/contact">
+        <Link href="/">
           <a>Council</a>
         </Link>
       </li>
       <li>
-        <Link href="/contact">
+        <Link href="/">
           <a>Collaboration</a>
         </Link>
       </li>
       <li>
-        <Link href="/contact">
+        <Link href="/">
           <a>Publication</a>
         </Link>
       </li>

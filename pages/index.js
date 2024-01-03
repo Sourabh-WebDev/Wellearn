@@ -74,7 +74,7 @@ const Index = () => {
             <div style={{ marginTop: "35px" }} className="row" >
               <div className="col-5">
                 <div className=" ">
-                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px", }}> Latest News</h3>
+                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px",  }}> Latest News</h3>
                 </div>
                 <div className="form-box">
 
@@ -376,7 +376,7 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-               
+
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-4s">
@@ -476,7 +476,6 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-               
               </div>
             </div>
           </Slider>
@@ -917,6 +916,7 @@ const Index = () => {
               <div style={{ marginTop: "40px", }} className="d-flex justify-content-between">
                 <div className=" ">
                   <span>
+                    
                     <a href="">
                       <img src="https://ipespharma.com/images/resource/aboutus.png" width={"80px"} height={"80px"} alt="icon1" />
                     </a>
@@ -966,11 +966,7 @@ const Index = () => {
 
               </div>
             </div>
-
           </div>
-
-
-
         </div>
       </section>
       {/* Partner Section End */}

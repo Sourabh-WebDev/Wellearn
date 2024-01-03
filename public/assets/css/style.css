@@ -9445,7 +9445,7 @@ blockquote .blockquote-footer:before {
 .footer-instagram:before {
   position: absolute;
   width: 100%;
-  height: 55%;
+  /* height: 55%; */
   content: "";
   left: 0;
   bottom: 0;
