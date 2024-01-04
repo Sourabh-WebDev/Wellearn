@@ -477,8 +477,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <a>Home</a>
         </Link>
       </li>
-      <li className="dropdown-btn">
-        <Link href="/about">
+      <li>
+        <Link href="/">
           <a>About Us</a>
         </Link>
       </li>
@@ -569,9 +569,9 @@ const HeaderTop = () => {
       <div className="container-fluid">
         <div className="top-inner">
           <div className="top-left">
-            <div>
-              <p>
-                <marquee behavior="scroll" direction="left" scrollamount="5">
+            <div> 
+              
+                <marquee behavior="scroll" direction="left" scrollamount="10">
                   <i /><img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
                   <b>Initiative Programme Highlight</b>&nbsp;&nbsp;
                   <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
@@ -589,7 +589,6 @@ const HeaderTop = () => {
                   <span>Invitation for meritorious person as honorable adviser</span>&nbsp;&nbsp;
                   <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
                 </marquee>
-              </p>
             </div>
           </div>
           <div className="top-right d-flex align-items-center">

@@ -89,22 +89,22 @@ const FollowIcon = () => (
   FooterBottom = () => (
     <Fragment>
       <li>
-        <Link href="/faqs">FAQs</Link>
+        <Link href="/#">FAQs</Link>
       </li>
       <li>
-        <Link href="/contact">Links</Link>
+        <Link href="/#">Links</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/#">About</Link>
       </li>
       <li>
-        <Link href="/contact">Payments</Link>
+        <Link href="/#">Payments</Link>
       </li>
     </Fragment>
   ),
   CopyRight = () => (
     <p>
-      © {new Date().getFullYear()}. <Link href="/">Sms Education</Link> All rights
+      © {new Date().getFullYear()}. <Link href="/">Pharma Education</Link> All rights
       reserved.
     </p>
   ),

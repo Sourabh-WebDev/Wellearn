@@ -72,13 +72,14 @@ const Index = () => {
             </div> */}
 
             <div style={{ marginTop: "35px", }} className="row" >
-              <div style={{backgroundColor: "whitesmoke", height: "500px"}} className="col-5">
+              <div style={{ backgroundColor: "whitesmoke", height: "500px", overflow: 'hidden' }} className="col-5">
                 <div>
-                <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px", color: "Highlight" }}> Latest News</h3>
+                  <h3 style={{ textAlign: "center", backgroundColor: "black", height: "120px", padding: "30px", color: "Highlight" }}> Latest News</h3>
                 </div>
 
                 <div className="form-box">
-                  <marquee direction="up" scrollamount="3" >
+
+                  <marquee direction="up" scrollamount="10">
                     <ul>
                       <li>
                         <a href="#" target="_blank">Online International Elocution Competition for Students of Pharmacy. Read more...</a>
@@ -87,43 +88,43 @@ const Index = () => {
                       <li>
                         <a href="#" target="_blank">IPES Invitation form</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding Affiliation, Accreditation, Collaboration, Partnership & Associatship for different programs</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding Conduction of Events, Workshops, Seminars, Conferences, Talks & Programs</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding Invitation for Honorary Executive position</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding Invitation for Social media</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding IPES Awardees in Annual Award Ceremony</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding IPES Digital Learning Initiative</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding IPES Intro, Vision & Mission</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">Regarding IPES Membership</a>
                       </li>
-                      <hr/>
+                      <hr />
                       <li>
                         <a href="#" target="_blank">IPES Roorkee Conference at motherhood university on 11th April 2020</a>
                       </li>
-                      <hr/>
+                      <hr />
                     </ul>
                   </marquee>
                 </div>
@@ -210,7 +211,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                <span className="number">IPES</span>
+                  <span className="number">IPES</span>
                   <h5>Financial Assistance</h5>
                 </div>
               </div>
@@ -224,7 +225,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                <span className="number">IPES</span>
+                  <span className="number">IPES</span>
                   <h5>Professional Strength</h5>
                 </div>
               </div>
@@ -238,7 +239,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="content">
-                <span className="number">IPES</span>
+                  <span className="number">IPES</span>
                   <h5>Research Fellow</h5>
                 </div>
               </div>
@@ -407,7 +408,7 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-               
+
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-6s">
@@ -427,7 +428,7 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-               
+
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-8s">
@@ -447,7 +448,7 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-               
+
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-2s">
@@ -467,7 +468,7 @@ const Index = () => {
                     How to Learn Web Design by Photoshop and Figma
                   </Link>
                 </h4>
-                
+
               </div>
             </div>
             <div className="coach-item-two wow fadeInUp delay-0-4s">
@@ -799,7 +800,7 @@ const Index = () => {
       </section> */}
       {/* Testimonial Section End */}
       {/* Blog Section Start */}
-    
+
       {/* Blog Section End */}
       {/* Partner Section Start */}
       <section className="partner-section rel z-1 pt-105 rpt-75 pb-75 rpb-55">
