@@ -142,7 +142,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        src="https://ipespharma.com/images/logo.png"width={'160px'} height={'140px'}
+                        src="https://ipespharma.com/images/logo.png" width={'160px'} height={'140px'}
                         alt="Logo"
                         title="Logo"
                       />
@@ -178,7 +178,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                     </button>
-                    
+
                   </div>
                   <div
                     className={`navbar-collapse collapse clearfix ${navToggle ? "show" : ""
@@ -377,7 +377,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        src="assets/images/logos/logoSms.jpg"
+                        src="https://ipespharma.com/images/logo.png" width={'140px'} height={'140px'}
                         alt="Logo"
                         title="Logo"
                       />
@@ -398,7 +398,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <div className="mobile-logo br-10 p-15">
                       <Link href="/">
                         <a>
-                          <img 
+                          <img
                             src="assets/images/logos/logoSms.jpg"
                             alt="Logo"
                             title="Logo"
@@ -431,19 +431,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
-                  <input type="search" placeholder="Search" required="" />
-                  <button>
-                    <i className="fas fa-search" />
-                  </button>
-                </form>
-                <button className="cart">
-                  <i className="fas fa-shopping-bag" />
-                </button>
-                <button>
-                  <i className="far fa-user-circle" />
-                </button>
-                
+
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
@@ -478,7 +466,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </Link>
       </li>
       <li>
-        <Link href="/">
+        <Link href="/about">
           <a>About Us</a>
         </Link>
       </li>
@@ -491,9 +479,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <span className="fas fa-chevron-down" />
         </div>
       </li> */}
-     
+
       <li>
-        <Link href="/">
+        <Link href="/council">
           <a>Council</a>
         </Link>
       </li>
@@ -539,7 +527,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <a>Career</a>
         </Link>
       </li>
-      
+
       {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>
@@ -569,25 +557,25 @@ const HeaderTop = () => {
       <div className="container-fluid">
         <div className="top-inner">
           <div className="top-left">
-            <div> 
-                <marquee behavior="scroll" direction="left" scrollamount="10">
-                  <i /><img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <b>Initiative Programme Highlight</b>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span href ="#"> About Us</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span>Presidents Message</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span>Invitation for association of institute & colleges</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span>Submission of application for conduction of seminar/conference</span>
-                  <span>10 vacancies for a EXECUTIVE OFFICER</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span>Journal of Applied Pharmaceutical Sciences and Research</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                  <span>Invitation for meritorious person as honorable adviser</span>&nbsp;&nbsp;
-                  <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
-                </marquee>
+            <div>
+              <marquee behavior="scroll" direction="left" scrollamount="10">
+                <i /><img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <b>Initiative Programme Highlight</b>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span href="#"> About Us</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span>Presidents Message</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span>Invitation for association of institute & colleges</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span>Submission of application for conduction of seminar/conference</span>
+                <span>10 vacancies for a EXECUTIVE OFFICER</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span>Journal of Applied Pharmaceutical Sciences and Research</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+                <span>Invitation for meritorious person as honorable adviser</span>&nbsp;&nbsp;
+                <img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
+              </marquee>
             </div>
           </div>
           <div className="top-right d-flex align-items-center">
