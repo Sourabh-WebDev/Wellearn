@@ -570,7 +570,6 @@ const HeaderTop = () => {
         <div className="top-inner">
           <div className="top-left">
             <div> 
-              
                 <marquee behavior="scroll" direction="left" scrollamount="10">
                   <i /><img src="https://ipespharma.com/images/new2.gif" alt="icon"></img>&nbsp;&nbsp;
                   <b>Initiative Programme Highlight</b>&nbsp;&nbsp;
