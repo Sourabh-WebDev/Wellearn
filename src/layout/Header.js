@@ -549,7 +549,6 @@ const Header1 = ({ navToggle, setNavToggle }) => (
     </ul>
   )
 
-
 const HeaderTop = () => {
   const context = useContext(AppContext)
   return (

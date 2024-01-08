@@ -17,8 +17,6 @@ const About = () => {
             <div className="col-lg-5">
               <div className="about-page-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
-
-
                   <div style={{ marginBottom: "15rem", backgroundColor: "red", width: "80rem" }} className="border_box">
                     <span className="sub-title-two">About IPES</span>
                     <div style={{ textAlign: "center" }}>
@@ -27,21 +25,25 @@ const About = () => {
                         Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
                     </div>
                   </div>
-
-                  <div style={{marginBottom: "50rem" }} className="row">
-                    <div className="d-flex justify-content-between" style={{ display: "flex" }}>
-                      <div className="col-xs-6">
+                  <div style={{ marginBottom: "50rem", display: "flex" }} className="row">
+                    <div className="d-flex justify-content-between" style={{ display: "flex"}}>
+                      <div className="col-xs-5">
                         <img src="https://ipespharma.com/images/resource/aboutus.jpg" alt="img" />
                       </div>
-                    
-                      <div className="col-xs-6">
-                        {/* <div>
-                          <img src="https://ipespharma.com/images/resource/DiffPro.png" alt="img2"/>
-                        </div> */}
+                    </div>
+                    <div className="col-xs-7">
+                      <div>
+                        <img src="https://ipespharma.com/images/resource/DiffPro.png" alt="img2" />
+                        <div className="">
+                          <div>
+                            <p>
+                              The Indian Pharma Educational Society is committed to provide assistance to each and every Pharma aspirants, students and professionals to groom themselves as per the changing requirements of the various segments of Pharmaceutical world. We will provide platforms for a variety of skill development programmes for Pharma fellows to improve skills in Pharmacy practice, Social walfare, Communication, Education and Research.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-
                   <h2>We’re Experience to Education Learning Center</h2>
                 </div>
                 <p>
