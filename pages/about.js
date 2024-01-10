@@ -11,10 +11,12 @@ const About = () => {
       <PageBanner pageName={"About us"} />
       {/* Page Banner End */}
       {/* About Section Start */}
+      {/* about */}
+      
       <section className="about-page-section pt-120 rpt-90">
         <div className="container">
           <div className="row align-items-center large-gap">
-            <div className="col-lg-5">
+            <div className="">
               <div className="about-page-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
 
@@ -22,7 +24,6 @@ const About = () => {
                     <span className="sub-title-two">About IPES</span>
                     <div style={{ textAlign: "center" }}>
                       <p style={{}}>
-                        About IPES
                         Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
                     </div>
                   </div>
@@ -37,11 +38,10 @@ const About = () => {
                         <img src="https://ipespharma.com/images/resource/DiffPro.png" alt="img2" />
                       </div>
                     </div>
-                    <div className=" " style={{ flex: 1, }}>
-                      <div>
-                        <p>
-                          The Indian Pharma Educational Society is committed to providing assistance to each and every Pharma aspirant, student, and professional to groom themselves as per the changing requirements of the various segments of the Pharmaceutical world. We will provide platforms for a variety of skill development programs for Pharma fellows to improve skills in Pharmacy practice, Social welfare, Communication, Education, and Research.
-                        </p>
+                    <div style={{ marginBottom: "15rem", backgroundColor: "red", width: "100rem", display: "flex" }} className="border_box">
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{}}>
+                          Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
                       </div>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ const About = () => {
                 <p>
                   SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals. SMS Education involves in preparing skilled computer professional environment. The courses are structured with special emphasis on personal development and compatibility in information technology with excellent infrastructure, core facility and rich library. the schemes & planning formation are reserved with the erudite professional & promoters of the institute - it is prompted to spread the rich guidance in order to satisfy country's fast growing new technology requirements.
                 </p>
-                <div className="about-btns pt-25">
+                <div className="about-btns pt-25">Get on
                   <Link href="/about">
                     <a className="theme-btn my-15">
                       Learn more <i className="fas fa-arrow-right" />
