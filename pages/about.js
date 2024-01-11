@@ -5,6 +5,7 @@ import Counter from "../src/components/Counter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import { testimonialtwoSlider } from "../src/sliderProps";
+
 const About = () => {
   return (
     <Layout>
@@ -12,7 +13,7 @@ const About = () => {
       {/* Page Banner End */}
       {/* About Section Start */}
       {/* about */}
-      
+
       <section className="about-page-section pt-120 rpt-90">
         <div className="container">
           <div className="row align-items-center large-gap">
@@ -20,72 +21,66 @@ const About = () => {
               <div className="about-page-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
 
-                  <div style={{ marginBottom: "15rem", backgroundColor: "red", width: "80rem" }} className="border_box">
+                  <div style={{ marginBottom: "10rem", backgroundColor: "red", width: "80rem" }} className="border_box">
                     <span className="sub-title-two">About IPES</span>
                     <div style={{ textAlign: "center" }}>
                       <p style={{}}>
                         Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
                     </div>
                   </div>
-                  <div style={{ marginBottom: "50rem", display: "flex" }} className="row">
+                  <div style={{ marginBottom: "5rem", display: "flex" }} className="row">
                     <div className="d-flex justify-content-between" style={{ flex: 1 }}>
                       <div className="col-xs-5">
                         <img src="https://ipespharma.com/images/resource/aboutus.jpg" alt="img" />
                       </div>
                     </div>
+
                     <div className="col-xs-7" style={{ flex: 1, display: "flex" }}>
-                      <div>
+                      <div style={{ width: "118px", height: "118px" }}>
                         <img src="https://ipespharma.com/images/resource/DiffPro.png" alt="img2" />
                       </div>
-                    </div>
-                    <div style={{ marginBottom: "15rem", backgroundColor: "red", width: "100rem", display: "flex" }} className="border_box">
-                      <div style={{ textAlign: "center" }}>
-                        <p style={{}}>
-                          Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
+
+                      <div style={{ marginBottom: "", backgroundColor: "red", width: "30rem", display: "flex" }} className="border_box">
+                        <div style={{ textAlign: "center" }}>
+                          <p style={{}}>
+                            Indian Pharma Educational Society [IPES] is a scientific organization of Pharma professionals which is established under The Societies Registration (Uttar Pradesh Amendment) Act, 1860 with registration number 6435 in the year 2018 with its head office at Lucknow. The Society is aimed at the all round development of pharmaceutical profession and its stake holders. IPES mainly involved in assisting skill based quality education, digital learning, corruption free and most appropriately practical applicability in Pharma profession. IPES is committed to fulfillments of need of student or professional at single place i.e. certification, appreciation, advising, support, fellowship, awareness, job assistance, training, competitive exam preparation, sponsoring and assisting in organization of scientific conferences, seminars, workshops and other educational and technical events. </p>
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  {/* <div style={{ marginBottom: "50rem", display: "flex" }} className="row">
-                    <div className="d-flex justify-content-between">
-                      <div className="col-xs-5">
-                        <img src="https://ipespharma.com/images/resource/aboutus.jpg" alt="img" />
-                      </div>
-                    </div>
-                    <div className="col-xs-7">
-                      <div>
-                        <img src="https://ipespharma.com/images/resource/DiffPro.png" alt="img2" />
-                        <div className="">
-                          <div>
-                            <p>
-                              The Indian Pharma Educational Society is committed to provide assistance to each and every Pharma aspirants, students and professionals to groom themselves as per the changing requirements of the various segments of Pharmaceutical world. We will provide platforms for a variety of skill development programmes for Pharma fellows to improve skills in Pharmacy practice, Social walfare, Communication, Education and Research.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
 
-                  <h2>We’re Experience to Education Learning Center</h2>
+                  <div className="" style={{ flex: 1, display: "flex", marginBottom: "5rem" }}>
+                    <div style={{ width: "118px", height: "118px" }}>
+                      <img src="https://ipespharma.com/images/resource/Edupartnership.png" alt="img3" />
+                    </div>
+
+                    <div style={{ marginBottom: "", backgroundColor: "gray", width: "80rem", display: "flex" }} className="border_box">
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{}}>
+                          We also help in developing and building a healthy relationship between Pharma industries, Academic institutions, Research and Development organizations and social groups in order to promote better understanding of each other’s requirements.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="" style={{ flex: 1, display: "flex" }}>
+                    <div style={{ width: "118px", height: "118px" }}>
+                      <img src="https://ipespharma.com/images/resource/network.jpg" alt="img4" />
+                    </div>
+
+                    <div style={{ marginBottom: "", backgroundColor: "gray", width: "80rem", display: "flex" }} className="border_box">
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{}}>
+                        IPES is aimed to provide full assistance and guidance in securing a respectable job to each and every student and Pharma professional through our large pool of Recruiting partner members, Advisory Board members and others.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p>
-                  SMS Education is a well-diversified an autonomous institute in the field of computer literacy, governed by distinctive and highly qualified professionals. SMS Education involves in preparing skilled computer professional environment. The courses are structured with special emphasis on personal development and compatibility in information technology with excellent infrastructure, core facility and rich library. the schemes & planning formation are reserved with the erudite professional & promoters of the institute - it is prompted to spread the rich guidance in order to satisfy country's fast growing new technology requirements.
-                </p>
-                <div className="about-btns pt-25">Get on
-                  <Link href="/about">
-                    <a className="theme-btn my-15">
-                      Learn more <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <Link href="/faqs">
-                    <a className="read-more">
-                      How it works <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
+               
               </div>
             </div>
-            <div className="col-lg-5">
+
+            {/* <div className="col-lg-5">
               <div className="about-page-middle rpt-55 rpb-30 wow fadeInRight delay-0-2s">
                 <img src="assets/images/about/about-page.png" alt="About" />
                 <div className="circle-content">
@@ -93,8 +88,8 @@ const About = () => {
                   <span>Years Of Experience</span>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-2">
+            </div> */}
+            {/* <div className="col-lg-2">
               <div className="counter-wrap style-two wow fadeInRight delay-0-4s">
                 <div className="success-item">
                   <span
@@ -137,13 +132,14 @@ const About = () => {
                   <span>Awards Winning</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
+
       {/* About Section End */}
       {/* Features Section Start */}
-      <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
+      {/* <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-55">
             <span className="sub-title-two">How About SMS</span>
@@ -220,10 +216,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Features Section End */}
       {/* Team Section Start */}
-      <section className="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
+      {/* <section className="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -436,17 +432,17 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Section End */}
       {/* Advertise Area Start */}
-      <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
+      {/* <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
         <div className="container">
           <Advertise />
         </div>
-      </section>
+      </section> */}
       {/* Advertise Area End */}
       {/* Why Learn Start */}
-      <section className="why-learn-area pb-120 rpb-100">
+      {/* <section className="why-learn-area pb-120 rpb-100">
         <div className="container">
           <div className="row align-items-center large-gap wow fadeInLeft delay-0-2s">
             <div className="col-lg-6">
@@ -515,10 +511,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Why Learn End */}
       {/* Testimonials Section Start */}
-      <section className="testimonials-section-two my-80 rel z-1 wow fadeInUp delay-0-2s">
+      {/* <section className="testimonials-section-two my-80 rel z-1 wow fadeInUp delay-0-2s">
         <div className="container">
           <Slider {...testimonialtwoSlider} className="testimonial-two-wrap">
             <div className="testimonial-item-two">
@@ -601,10 +597,10 @@ const About = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/* Testimonials Section End */}
       {/* Partner Section Start */}
-      <section className="partner-section rel z-1 pt-120 rpt-90 pb-75 rpb-55">
+      {/* <section className="partner-section rel z-1 pt-120 rpt-90 pb-75 rpb-55">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -674,7 +670,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

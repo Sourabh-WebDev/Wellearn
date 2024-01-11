@@ -503,7 +503,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
       </li>
 
       <li>
-        <Link href="/">
+        <Link href="/membership">
           <a>Membership</a>
         </Link>
       </li>
