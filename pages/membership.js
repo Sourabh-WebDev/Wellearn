@@ -8,31 +8,40 @@ import Layout from "../src/layout/Layout";
 import { testimonialtwoSlider } from "../src/sliderProps";
 
 const membership = () => {
-    return (
-        <Layout>
-            <PageBanner pageName={"Membership"} />
-            {/* Page Banner End */}
-            {/* About Section Start */}
+  return (
+    <Layout>
+      <PageBanner pageName={"Membership"} />
+      {/* Page Banner End */}
+      {/* About Section Start */}
 
-            <section className="about-page-section pt-120 rpt-90">
-                <div style={{ backgroundImage: "url('https://ipespharma.com/images/background/1.jpg')", backgroundSize: "cover", backgroundPosition: "center", all: "imgbg" }} className="container">
-                    <div className='row'>
-                        <div className='col-xl-4'>
-                            Hlo1
-                        </div>
-                        <div className='col-xl-4'>
-                            Hlo2
-                        </div>
-                        <div className='col-xl-4'>
-                            Hlo3
-                        </div>
-                    </div>
+      <section className="about-page-section pt-120 rpt-90">
+        <div style={{ backgroundImage: "url('https://ipespharma.com/images/background/1.jpg')", backgroundSize: "cover", backgroundPosition: "center", all: "imgbg", height: "22rem", }} className="container">
+
+          <div className='d-flex justify-content-around row'> 
+
+            <div style={{ textAlign: "center", marginTop: "15px" }} className='col-xl-4'>
+              <div style={{ backgroundColor: "red", width: '15rem', height: "15rem", }}>
+                <div style={{ textAlign: "center" }}>
+                  <h5>Student Membership</h5>
+                  <p>Registration Form</p>
+                  <button type="button" className="btn btn-light">Register Now</button>
                 </div>
-            </section>
+              </div>
+            </div>
 
-            {/* About Section End */}
-            {/* Features Section Start */}
-            {/* <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
+            <div className='col-xl-4'>
+              Hlo2
+            </div>
+            <div className='col-xl-4'>
+              Hlo3
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section End */}
+      {/* Features Section Start */}
+      {/* <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
       <div className="container">
         <div className="section-title text-center mb-55">
           <span className="sub-title-two">How About SMS</span>
@@ -110,9 +119,9 @@ const membership = () => {
         </div>
       </div>
     </section> */}
-            {/* Features Section End */}
-            {/* Team Section Start */}
-            {/* <section className="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
+      {/* Features Section End */}
+      {/* Team Section Start */}
+      {/* <section className="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -326,16 +335,16 @@ const membership = () => {
         </div>
       </div>
     </section> */}
-            {/* Team Section End */}
-            {/* Advertise Area Start */}
-            {/* <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
+      {/* Team Section End */}
+      {/* Advertise Area Start */}
+      {/* <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
       <div className="container">
         <Advertise />
       </div>
     </section> */}
-            {/* Advertise Area End */}
-            {/* Why Learn Start */}
-            {/* <section className="why-learn-area pb-120 rpb-100">
+      {/* Advertise Area End */}
+      {/* Why Learn Start */}
+      {/* <section className="why-learn-area pb-120 rpb-100">
       <div className="container">
         <div className="row align-items-center large-gap wow fadeInLeft delay-0-2s">
           <div className="col-lg-6">
@@ -405,9 +414,9 @@ const membership = () => {
         </div>
       </div>
     </section> */}
-            {/* Why Learn End */}
-            {/* Testimonials Section Start */}
-            {/* <section className="testimonials-section-two my-80 rel z-1 wow fadeInUp delay-0-2s">
+      {/* Why Learn End */}
+      {/* Testimonials Section Start */}
+      {/* <section className="testimonials-section-two my-80 rel z-1 wow fadeInUp delay-0-2s">
       <div className="container">
         <Slider {...testimonialtwoSlider} className="testimonial-two-wrap">
           <div className="testimonial-item-two">
@@ -491,9 +500,9 @@ const membership = () => {
         </Slider>
       </div>
     </section> */}
-            {/* Testimonials Section End */}
-            {/* Partner Section Start */}
-            {/* <section className="partner-section rel z-1 pt-120 rpt-90 pb-75 rpb-55">
+      {/* Testimonials Section End */}
+      {/* Partner Section Start */}
+      {/* <section className="partner-section rel z-1 pt-120 rpt-90 pb-75 rpb-55">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
@@ -564,8 +573,8 @@ const membership = () => {
         </div>
       </div>
     </section> */}
-        </Layout>
-    )
+    </Layout>
+  )
 }
 
 export default membership
