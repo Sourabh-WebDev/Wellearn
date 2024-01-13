@@ -1,8 +1,5 @@
 import React from 'react'
 import Link from "next/link";
-import Slider from "react-slick";
-import Advertise from "../src/components/Advertise";
-import Counter from "../src/components/Counter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import { testimonialtwoSlider } from "../src/sliderProps";
