@@ -19,7 +19,7 @@ const membership = () => {
             <div style={{ textAlign: 'center', marginTop: '15px' }} className='col-xl-4'>
               <div style={{ backgroundColor: 'red', width: '15rem', height: '15rem' }}>
                 <div style={{ textAlign: 'center', marginTop: '20%' }}>
-                    <h5 style={{marginTop:"15%"}}>Student Membership</h5>
+                    <h5 style={{marginTop:"25%"}}>Student Membership</h5>
                     <p style={{marginTop:"25%"}}>Registration Form</p>
                     <button style={{marginTop:"5%"}} type="button" className="btn btn-light">
                       Register Now
