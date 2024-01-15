@@ -15,15 +15,14 @@ const membership = () => {
         <div style={{ backgroundImage: "url('https://ipespharma.com/images/background/1.jpg')", backgroundSize: "cover", backgroundPosition: "center", all: "imgbg", height: "22rem", }} className="container">
 
           <div className='d-flex justify-content-around row'>
-
-            <div style={{ textAlign: 'center', marginTop: '15px' }} className='col-xl-4'>
-              <div style={{ backgroundColor: 'red', width: '15rem', height: '15rem' }}>
+            <div className='col-xl-4'>
+              <div style={{ backgroundColor: 'red', width: '15rem', height: '15rem', textAlign: 'center', marginTop: '15px' }}>
                 <div style={{ textAlign: 'center', marginTop: '20%' }}>
-                    <h5 style={{marginTop:"25%"}}>Student Membership</h5>
-                    <p style={{marginTop:"25%"}}>Registration Form</p>
-                    <button style={{marginTop:"5%"}} type="button" className="btn btn-light">
-                      Register Now
-                    </button> 
+                  <h5 style={{ marginTop: "25%" }}>Student Membership</h5>
+                  <p style={{ marginTop: "25%" }}>Registration Form</p>
+                  <button style={{ marginTop: "5%" }} type="button" className="btn btn-light">
+                    Register Now
+                  </button>
                 </div>
               </div>
             </div>
@@ -31,11 +30,11 @@ const membership = () => {
             <div style={{ textAlign: 'center', marginTop: '15px' }} className='col-xl-4'>
               <div style={{ backgroundColor: 'red', width: '15rem', height: '15rem' }}>
                 <div style={{ textAlign: 'center', marginTop: '20%' }}>
-                    <h5 style={{marginTop:"15%"}}>Recruiting Board Membership</h5>
-                    <p style={{marginTop:"25%"}}>Registration Form</p>
-                    <button style={{marginTop:"5%",}} type="button" className="btn btn-light">
-                      Register Now
-                    </button> 
+                  <h5 style={{ marginTop: "5%" }}>Recruiting Board Membership</h5>
+                  <p style={{ marginTop: "25%" }}>Registration Form</p>
+                  <button style={{ marginTop: "5%", }} type="button" className="btn btn-light">
+                    Register Now
+                  </button>
                 </div>
               </div>
             </div>
@@ -43,11 +42,11 @@ const membership = () => {
             <div style={{ textAlign: 'center', marginTop: '15px' }} className='col-xl-4'>
               <div style={{ backgroundColor: 'red', width: '15rem', height: '15rem' }}>
                 <div style={{ textAlign: 'center', marginTop: '20%' }}>
-                    <h5 style={{marginTop:"15%"}}>Advisory Membership</h5>
-                    <p style={{marginTop:"25%"}}>Registration Form</p>
-                    <button style={{marginTop:"5%"}} type="button" className="btn btn-light">
-                      Register Now
-                    </button> 
+                  <h5 style={{ marginTop: "15%" }}>Advisory Membership</h5>
+                  <p style={{ marginTop: "25%" }}>Registration Form</p>
+                  <button style={{ marginTop: "5%" }} type="button" className="btn btn-light">
+                    Register Now
+                  </button>
                 </div>
               </div>
             </div>

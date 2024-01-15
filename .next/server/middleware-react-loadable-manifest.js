@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"index2.js -> ../src/components/isotope/Index1Isotope":{"id":"index2.js -> ../src/components/isotope/Index1Isotope","files":["static/chunks/src_components_isotope_Index1Isotope_js.js"]}}
